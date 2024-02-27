@@ -33,7 +33,6 @@ void NewToast(
       alignment: const Alignment(0, 0.8),
       child: NewView(
         params: NewParams(),
-        tag: randomString(10),
       ),
     ),
   );

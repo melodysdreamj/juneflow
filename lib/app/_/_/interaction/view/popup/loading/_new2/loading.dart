@@ -33,8 +33,6 @@ void NewLoading(
     toastBuilder: (cancelFunc) {
       return NewView(
         params: NewParams(cancelFunc),
-        tag: List.generate(
-            10, (_) => String.fromCharCode(Random().nextInt(26) + 97)).join(),
       );
     },
   );

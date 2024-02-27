@@ -29,27 +29,29 @@ class NewView extends StatefulWidget {
 
 class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
   bool isReadyView = false;
-  String? randomTag;
-
+  String? localTag;
 
   @override
   Widget build(BuildContext context) {
+    if (localTag == null && widget.tag == null) localTag = randomString(20);
+    if (localTag == null && widget.tag != null) localTag = widget.tag;
+
     widget.params.context = context;
-    refreshView(widget.params, widget.params.context, widget.tag);
+    refreshView(widget.params, widget.params.context, localTag);
     return (!isReadyView)
         ? LoadingComponent(
             params: widget.params,
-            tag: widget.tag,
+            tag: localTag,
           )
         : V(
             params: widget.params,
-            tag: widget.tag,
+            tag: localTag,
           );
   }
 
   @override
   void afterFirstLayout(BuildContext context) {
-    viewAfterFirstLayout(context, widget.params, widget.tag);
+    viewAfterFirstLayout(context, widget.params, localTag);
   }
 
   @override
@@ -65,7 +67,7 @@ class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
   @override
   void dispose() {
     super.dispose();
-    viewDispose(tag: widget.tag);
+    viewDispose(tag: localTag);
     isDisposed = true;
   }
 
@@ -81,7 +83,7 @@ class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
   ) async {
     if (isReadyView) return; // If it's already running, terminate it.
     params.context = context;
-    await readyView(params, context, widget.tag);
+    await readyView(params, context, localTag);
 
     if (isDisposed == false) {
       setState(() {
