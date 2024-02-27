@@ -33,8 +33,7 @@ void NewToast(
       alignment: const Alignment(0, 0.8),
       child: NewView(
         params: NewParams(),
-        tag: List.generate(
-            10, (_) => String.fromCharCode(Random().nextInt(26) + 97)).join(),
+        tag: randomString(10),
       ),
     ),
   );
