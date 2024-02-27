@@ -55,6 +55,9 @@ dependencies:
   keyboard_attachable: ^2.2.0
 
   bot_toast: ^4.1.3
+  tuple: ^2.0.2
+  auto_size_text: ^3.0.0
+  flutter_color: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +80,7 @@ flutter:
 
   assets:
     - assets/localization.csv
+    - assets/sample/page/intro/toss_style/
 
 flutter_icons:
   image_path_android: "assets/launcher_icons/android.png"

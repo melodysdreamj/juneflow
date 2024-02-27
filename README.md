@@ -7,7 +7,7 @@
 <p align="center">
   An application development pattern for Flutter<br>
 
-</p>
+</p>  
 
 ## Get Started
 
@@ -23,6 +23,7 @@ flutter pub get
 flutter run
 ```
 
+hihi
 ## Documentation
 
 JuneFlutter has a clear method of use overall, related to making apps, including UI, backend, and
