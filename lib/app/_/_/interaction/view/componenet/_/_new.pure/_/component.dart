@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../../main.dart';
+import '../../../../../../../../../main.dart';
 
 class Some extends StatefulWidget {
   const Some({super.key});
