@@ -778,10 +778,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "06b77c53efba97beb5024f2f78f561e7ec6ae4c3"
+      resolved-ref: "5ebf0ed9e965c2bce3818653ac30f6831c7b9c39"
       url: "https://github.com/melodysdreamj/junes_flutter_architecture_pakage.git"
     source: git
-    version: "0.8.6"
+    version: "0.8.9"
   keyboard_attachable:
     dependency: "direct main"
     description:

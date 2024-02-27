@@ -7,11 +7,11 @@
 // export 'handler/template/scaffold_view_note.dart';
 //
 // export 'package:june/june.dart';
-// export 'handler/string/_.dart';
+// export 'handler/string/function.dart';
 //
-// export 'handler/logger/_.dart';
+// export 'handler/logger/function.dart';
 //
-// export 'config/_.dart';
+// export 'config/function.dart';
 //
 // export 'params/my_package_info.dart';
 //

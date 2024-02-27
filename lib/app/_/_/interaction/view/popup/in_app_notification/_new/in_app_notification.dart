@@ -22,8 +22,9 @@ void NewNotification(BuildContext context) async {
       duration: Duration(seconds: seconds),
       backButtonBehavior: backButtonBehavior,
       toastBuilder: (cancel) {
-        return NewView(params: NewParams(cancel), tag: List.generate(
-            10, (_) => String.fromCharCode(Random().nextInt(26) + 97)).join(),);
+        return NewView(
+          params: NewParams(cancel),
+        );
       },
       enableSlideOff: enableSlideOff,
       onlyOne: onlyOne,

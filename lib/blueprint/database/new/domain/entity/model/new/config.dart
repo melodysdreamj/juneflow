@@ -1,5 +1,7 @@
 import 'dart:math';
 
+import 'package:junes_flutter_architecture/functions/random.dart';
+
 class NewModelConfig {
   static NewModelConfig to = NewModelConfig();
 
@@ -7,20 +9,7 @@ class NewModelConfig {
   String generateDocId() {
     // return _generateRandomString();
     return DateTime.now().millisecondsSinceEpoch.toString() +
-        _generateRandomString(2);
+        randomStringWithNumber(2);
     // return "Sample";
   }
-}
-
-String _generateRandomString(int length) {
-  const characters =
-      'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-  final rand = Random();
-
-  return String.fromCharCodes(
-    Iterable.generate(
-      length,
-      (_) => characters.codeUnitAt(rand.nextInt(characters.length)),
-    ),
-  );
 }
