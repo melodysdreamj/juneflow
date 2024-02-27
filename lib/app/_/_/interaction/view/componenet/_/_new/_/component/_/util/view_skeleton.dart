@@ -29,6 +29,8 @@ class NewView extends StatefulWidget {
 
 class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
   bool isReadyView = false;
+  String? randomTag;
+
 
   @override
   Widget build(BuildContext context) {
