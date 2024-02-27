@@ -7,7 +7,7 @@
 <p align="center">
   An application development pattern for Flutter<br>
 
-</p>
+</p>  
 
 ## Get Started
 
