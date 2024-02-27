@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "june.lee" "\0"
-            VALUE "FileDescription", "june_architecture" "\0"
+            VALUE "FileDescription", "love" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "june_architecture" "\0"
+            VALUE "InternalName", "love" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 june.lee. All rights reserved." "\0"
-            VALUE "OriginalFilename", "june_architecture.exe" "\0"
-            VALUE "ProductName", "june_architecture" "\0"
+            VALUE "OriginalFilename", "love.exe" "\0"
+            VALUE "ProductName", "love" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
