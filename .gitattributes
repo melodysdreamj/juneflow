@@ -1,0 +1,11 @@
+# # Auto detect text files and perform LF normalization
+* text=auto
+
+; lib/apps/start_app.dart merge=ours
+; lib/oss_licenses.dart merge=ours
+; lib/main.dart merge=ours
+pubspec.lock merge=ours
+pubspec.yaml merge=ours
+README.md merge=ours
+.gitignore merge=ours
+.gitattributes merge=ours

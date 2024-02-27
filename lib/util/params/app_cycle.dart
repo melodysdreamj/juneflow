@@ -1,0 +1,1 @@
+bool isForeground = false;
