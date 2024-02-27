@@ -5,7 +5,7 @@ import 'state.dart';
 import '_/params.dart';
 import '_/util/navigator.dart';
 import '_/util/view_skeleton.dart';
-import '_/widget/_new.dart';
+
 
 class V extends StatefulWidget {
   const V({super.key, this.tag, required this.params, required this.slug});
