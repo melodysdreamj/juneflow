@@ -1,4 +1,4 @@
-package june.lee.june_architecture
+package june.lee.love
 
 import io.flutter.embedding.android.FlutterActivity
 
