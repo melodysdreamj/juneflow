@@ -15,7 +15,7 @@ import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 
 import '../main.dart';
-import '../app/_/_/interaction/view/_/_/init_view.dart';
+import '../app/_/_/interaction/view/_/page/init_view.dart';
 import '../util/params/app_cycle.dart';
 import '../app/_/_/interaction/listener/_/app_life_cycle/turn_background.dart';
 import '../app/_/_/interaction/listener/_/app_life_cycle/turn_foreground.dart';
