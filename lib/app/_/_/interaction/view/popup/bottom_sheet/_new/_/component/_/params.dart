@@ -6,7 +6,7 @@ class NewParams {
   late BuildContext context;
 
   // 1. add parameters here
-  // String? param;
+  // String param;
 
   NewParams(// 2. add parameters here
       // this.param

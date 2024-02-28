@@ -4,7 +4,7 @@ import '../../../../../../../../../../../util/start_app.dart';
 
 class NewParams {
   // 1. add parameters here
-  // String? param;
+  // String param;
 
   NewParams(// 2. add parameters here
       // this.param

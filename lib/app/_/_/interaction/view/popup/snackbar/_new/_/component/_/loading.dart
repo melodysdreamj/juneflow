@@ -15,11 +15,6 @@ class LoadingComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        backgroundColor: Theme.of(context).colorScheme.background,
-        body: Container(),
-      ),
-    );
+    return Container().height(100).width(100);
   }
 }
