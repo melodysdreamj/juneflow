@@ -19,6 +19,7 @@ import '../app/_/_/interaction/view/_/_/init_view.dart';
 import '../util/params/app_cycle.dart';
 import '../app/_/_/interaction/listener/_/app_life_cycle/turn_background.dart';
 import '../app/_/_/interaction/listener/_/app_life_cycle/turn_foreground.dart';
+import 'config/device_preview.dart';
 import 'config/router/_.dart';
 import 'config/screen_rotate.dart';
 import 'config/support_language.dart';
@@ -49,7 +50,7 @@ Future<void> myApp(
             child: (!kIsWeb || kReleaseMode)
                 ? MyApp()
                 : DevicePreview(
-                    enabled: true,
+                    enabled: when_start_web_with_device_preview,
                     builder: (context) => MyApp(),
                   ),
           ),
