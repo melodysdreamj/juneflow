@@ -13,9 +13,16 @@ import 'my_app_version_change/ready.dart';
 import 'package_info/ready.dart';
 import 'timeago/ready.dart';
 
+import 'web_url_strategy/none.dart'
+if (dart.library.html) 'web_url_strategy/_.dart' as url_strategy;
+
 readyForRunAppStart() async {
   if (_readyForRunAppStart) return;
   _readyForRunAppStart = true;
+
+  if (kIsWeb) {
+    url_strategy.readyForWebUrlStrategy();
+  }
 
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
 
