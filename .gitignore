@@ -50,7 +50,8 @@ android/app/google-services.json
 .packages
 .pub-cache/
 .pub/
-/build/
+/build/*
+!/build/web/
 
 /env/
 
