@@ -28,19 +28,19 @@ class _VState extends State<V> {
   @override
   void initState() {
     super.initState();
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/money.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/money.png',
         "Hidden insurance\nFind", ""));
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/money2.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/money2.png',
         "Lifetime\nFree remittance", ""));
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/bank.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/bank.png',
         "Toss Bank", "Prime bank"));
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/hospital.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/hospital.png',
         "Medical expenses\nGet refunded", ""));
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/vaccine.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/vaccine.png',
         "Free\nVaccine insurance", ""));
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/money4.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/money4.png',
         "Government subsidy\nFind", ""));
-    introData.add(Tuple3('assets/sample/page/intro/toss_style/stock.png',
+    introData.add(Tuple3('assets/sample/page/intro/toss_intro/stock.png',
         "Toss Securities\nTrade stocks easily", ""));
   }
 

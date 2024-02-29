@@ -80,7 +80,7 @@ flutter:
 
   assets:
     - assets/localization.csv
-    - assets/sample/page/intro/toss_style/
+    - assets/sample/page/intro/toss_intro/
 
 flutter_icons:
   image_path_android: "assets/launcher_icons/android.png"
