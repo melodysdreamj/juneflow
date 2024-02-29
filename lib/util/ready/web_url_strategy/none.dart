@@ -1,2 +1,1 @@
-Future<void> readyForWebUrlStrategy() async {
-}
+Future<void> readyForWebUrlStrategy() async {}

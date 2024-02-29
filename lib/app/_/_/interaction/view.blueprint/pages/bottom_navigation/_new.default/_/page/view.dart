@@ -50,7 +50,7 @@ class _VState extends State<V> {
               });
             },
             items: [
-              //////////////////////////////////////////////////////////////////
+              //////////////////////
               BottomNavigationBarItem(
                 label: 'Favorites',
                 icon: Icon(Icons.home_filled),
@@ -83,17 +83,17 @@ class _VState extends State<V> {
                   color: Theme.of(context).textTheme.bodyLarge!.color!,
                 ),
               ),
-              //////////////////////////////////////////////////////////////////
+              //////////////////////
             ],
           ),
         ),
         body: <Widget>[
-          //////////////////////////////////////////////////////////////////
+          //////////////////////
           Container().backgroundColor(Colors.red),
           Container().backgroundColor(Colors.blue),
           Container().backgroundColor(Colors.yellow),
           Container().backgroundColor(Colors.green),
-          //////////////////////////////////////////////////////////////////
+          //////////////////////
         ].elementAt(_selectedIndex),
       ),
     );

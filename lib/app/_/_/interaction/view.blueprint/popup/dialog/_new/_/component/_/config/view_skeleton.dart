@@ -40,13 +40,13 @@ class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
     refreshView(widget.params, widget.params.context, localTag);
     return (!isReadyView)
         ? LoadingComponent(
-      params: widget.params,
-      tag: localTag,
-    )
+            params: widget.params,
+            tag: localTag,
+          )
         : V(
-      params: widget.params,
-      tag: localTag,
-    );
+            params: widget.params,
+            tag: localTag,
+          );
   }
 
   @override
@@ -78,9 +78,9 @@ class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
   }
 
   Future<void> readyPage(
-      NewParams params,
-      BuildContext context,
-      ) async {
+    NewParams params,
+    BuildContext context,
+  ) async {
     if (isReadyView) return; // If it's already running, terminate it.
     params.context = context;
     await readyView(params, context, localTag);
