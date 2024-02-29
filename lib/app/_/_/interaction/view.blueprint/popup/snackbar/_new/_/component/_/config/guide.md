@@ -1,16 +1,7 @@
 # [View_Folder_Name] Guide
 
 ### Contributors
-
-<div style="display: flex; flex-wrap: wrap; text-align: center;">
-  <div style="margin: 10px;">
-    <div style="border-radius: 50%; overflow: hidden; width: 60px; height: 60px; margin: 0 auto;">
-      <img src="https://github.com/[GITHUB_ID].png" style="width: 100%; display: block;">
-    </div>
-    <p><a href="https://github.com/[GITHUB_ID]">[GITHUB_ID]</a></p>
-  </div>
-
-</div>
+[[GITHUB_ID]](https://github.com/[GITHUB_ID])
 
 ### install Step
 
