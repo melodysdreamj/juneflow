@@ -7,7 +7,6 @@ import '_/params.dart';
 import '_/config/navigator.dart';
 import '_/config/view_skeleton.dart';
 
-
 class V extends StatefulWidget {
   const V({super.key, this.tag, required this.params, required this.slug});
 
@@ -30,12 +29,12 @@ class _VState extends State<V> {
         body: IndexedStack(
           index: state.selectedIndex,
           children: [
-            //////////////////////////////////////////////////////////////////
+            //////////////////////
             Container().backgroundColor(Colors.red),
             Container().backgroundColor(Colors.blue),
             Container().backgroundColor(Colors.yellow),
             Container().backgroundColor(Colors.green),
-            //////////////////////////////////////////////////////////////////
+            //////////////////////
           ],
         ),
         floatingActionButton: FloatingActionButtonKit(

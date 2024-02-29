@@ -7,7 +7,7 @@ class AppThemeMode extends JuneState {
 
 switchThemeMode(BuildContext context) {
   AppThemeMode vm = June.getState(AppThemeMode());
-  if(_isDarkMode(context)) {
+  if (_isDarkMode(context)) {
     vm.mode = ThemeMode.light;
   } else {
     vm.mode = ThemeMode.dark;

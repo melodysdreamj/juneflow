@@ -97,7 +97,7 @@ class MyApp extends StatelessWidget {
   Widget buildAppRouter(BuildContext context) {
     final botToastBuilder = BotToastInit();
     return JuneBuilder(
-          () => AppThemeMode(),
+      () => AppThemeMode(),
       autoRemove: false,
       builder: (appThemeMode) => MaterialApp.router(
         routeInformationParser: app_router.routeInformationParser,
@@ -105,7 +105,8 @@ class MyApp extends StatelessWidget {
         routeInformationProvider: app_router.routeInformationProvider,
         localizationsDelegates: context.localizationDelegates,
         supportedLocales: context.supportedLocales,
-        locale: (!kIsWeb || kReleaseMode) ? null : DevicePreview.locale(context),
+        locale:
+            (!kIsWeb || kReleaseMode) ? null : DevicePreview.locale(context),
         title: "Awesome Flutter StarterKit",
         theme: ThemeConfig.appTheme,
         darkTheme: ThemeConfig.appDarkTheme,
