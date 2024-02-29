@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/melodysdreamj/JuneFlutter/document/logo.png" alt="logo" width="25%" />
 </p>
 <h1 align="center">
-  JuneArchitecture
+  June Architecture
 </h1>
 <p align="center">
   An application development pattern for Flutter<br>
