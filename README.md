@@ -23,25 +23,4 @@ flutter pub get
 flutter run
 ```
 
-## Documentation
-
-JuneFlutter has a clear method of use overall, related to making apps, including UI, backend, and
-adding features. Please refer
-to [the document](https://juneflutter-doc.junes-architecture.lol/getting-started) to create your
-app!
-
-## Share Views
-
-JuneFlutter allows you to instantly use and easily modify numerous views (pages, components, bottom
-sheets, dialogs, etc.) in your project by copying and pasting the same structure.
-Check out the views available [here](https://juneflutter-views.junes-architecture.lol).
-
-## Extension
-
-JuneFlutter allows you to easily add numerous features based on the same architecture. Below is a
-list of the current extensions available.
-
-| Name                                                                    | Description          | Maintainer                                        |
-|-------------------------------------------------------------------------|----------------------|---------------------------------------------------|
-| [**pocketbase**](https://github.com/melodysdreamj/pocketbase-extension) | pocketbase-extension | [melodysdreamj](https://github.com/melodysdreamj) 
-
+## 🚧 Under Construction.. 🚧
