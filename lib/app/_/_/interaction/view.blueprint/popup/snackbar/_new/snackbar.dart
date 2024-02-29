@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../util/start_app.dart';
-import '_/component/_/util/view_skeleton.dart';
+import '_/component/_/config/view_skeleton.dart';
 
 void NewSnackBar(BuildContext context, int duration) async {
   final snackBar = SnackBar(

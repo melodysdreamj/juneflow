@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../../../../../../../../util/start_app.dart';
 import 'state.dart';
 import '_/params.dart';
-import '_/util/view_skeleton.dart';
+import '_/config/view_skeleton.dart';
 
 
 class V extends StatefulWidget {

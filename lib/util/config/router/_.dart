@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../app/_/_/interaction/view/_/page/init_view.dart';
+import '../../../app/_/_/interaction/view/_/_/init_view.dart';
 import '../../start_app.dart';
 
 // GoRouter configuration

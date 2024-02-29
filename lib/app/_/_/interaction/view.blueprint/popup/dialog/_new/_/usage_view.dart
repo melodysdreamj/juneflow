@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../../util/start_app.dart';
-import 'component/_/util/view_skeleton.dart';
+import 'component/_/config/view_skeleton.dart';
 
 String _noteName = "View Note";
 

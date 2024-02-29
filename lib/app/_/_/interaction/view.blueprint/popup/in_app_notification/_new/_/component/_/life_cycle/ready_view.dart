@@ -5,7 +5,7 @@ import '../../../../../../../../../../../../util/start_app.dart';
 import '../../action/cycle/ready_state.dart';
 import '../params.dart';
 import '../../action/cycle/ready_exist_before_state.dart';
-import '../util/view_skeleton.dart';
+import '../config/view_skeleton.dart';
 import '../../state.dart';
 
 Future readyView(

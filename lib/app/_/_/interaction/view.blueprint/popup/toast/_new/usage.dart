@@ -5,7 +5,7 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../util/start_app.dart';
-import '_/component/_/util/view_skeleton.dart';
+import '_/component/_/config/view_skeleton.dart';
 import 'toast.dart';
 
 var openWidget = (BuildContext context) async {

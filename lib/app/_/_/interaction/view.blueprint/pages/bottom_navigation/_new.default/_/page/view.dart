@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../../../../../../../../util/start_app.dart';
 import 'state.dart';
 import '_/params.dart';
-import '_/util/navigator.dart';
-import '_/util/view_skeleton.dart';
+import '_/config/navigator.dart';
+import '_/config/view_skeleton.dart';
 
 class V extends StatefulWidget {
   const V({super.key, this.tag, required this.params, required this.slug});

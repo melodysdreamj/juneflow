@@ -4,7 +4,7 @@ import '../../../../../../../../../../../../util/start_app.dart';
 
 import '../params.dart';
 import '../../action/cycle/refresh_state.dart';
-import '../util/view_skeleton.dart';
+import '../config/view_skeleton.dart';
 
 refreshView(
   NewParams params,

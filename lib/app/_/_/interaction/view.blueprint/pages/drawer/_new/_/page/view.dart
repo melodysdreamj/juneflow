@@ -4,8 +4,8 @@ import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import '../../../../../../../../../../util/start_app.dart';
 import 'state.dart';
 import '_/params.dart';
-import '_/util/navigator.dart';
-import '_/util/view_skeleton.dart';
+import '_/config/navigator.dart';
+import '_/config/view_skeleton.dart';
 
 
 class V extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../../util/start_app.dart';
-import 'page/_/util/navigator.dart';
+import 'page/_/config/navigator.dart';
 
 String _noteName = "Note";
 
