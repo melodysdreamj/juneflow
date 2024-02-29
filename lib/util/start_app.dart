@@ -24,6 +24,7 @@ import 'config/router/_.dart';
 import 'config/screen_rotate.dart';
 import 'config/support_language.dart';
 import 'config/theme/_config.dart';
+import 'handler/theme_mode/_.dart';
 import 'ready/ready.dart';
 
 export 'config/theme/_config.dart';
@@ -95,26 +96,30 @@ class MyApp extends StatelessWidget {
 
   Widget buildAppRouter(BuildContext context) {
     final botToastBuilder = BotToastInit();
-    return MaterialApp.router(
-      routeInformationParser: app_router.routeInformationParser,
-      routerDelegate: app_router.routerDelegate,
-      routeInformationProvider: app_router.routeInformationProvider,
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-      locale: (!kIsWeb || kReleaseMode) ? null : DevicePreview.locale(context),
-      title: "Awesome Flutter StarterKit",
-      theme: ThemeConfig.appTheme,
-      darkTheme: ThemeConfig.appDarkTheme,
-      themeMode: ThemeMode.system,
-      debugShowCheckedModeBanner: false,
-      builder: (context, child) {
-        child = EasyLoading.init()(context, child);
-        child = botToastBuilder(context, child);
-        if (!(!kIsWeb || kReleaseMode)) {
-          child = DevicePreview.appBuilder(context, child);
-        }
-        return child;
-      },
+    return JuneBuilder(
+          () => AppThemeMode(),
+      autoRemove: false,
+      builder: (appThemeMode) => MaterialApp.router(
+        routeInformationParser: app_router.routeInformationParser,
+        routerDelegate: app_router.routerDelegate,
+        routeInformationProvider: app_router.routeInformationProvider,
+        localizationsDelegates: context.localizationDelegates,
+        supportedLocales: context.supportedLocales,
+        locale: (!kIsWeb || kReleaseMode) ? null : DevicePreview.locale(context),
+        title: "Awesome Flutter StarterKit",
+        theme: ThemeConfig.appTheme,
+        darkTheme: ThemeConfig.appDarkTheme,
+        themeMode: appThemeMode.mode,
+        debugShowCheckedModeBanner: false,
+        builder: (context, child) {
+          child = EasyLoading.init()(context, child);
+          child = botToastBuilder(context, child);
+          if (!(!kIsWeb || kReleaseMode)) {
+            child = DevicePreview.appBuilder(context, child);
+          }
+          return child;
+        },
+      ),
     );
   }
 }
