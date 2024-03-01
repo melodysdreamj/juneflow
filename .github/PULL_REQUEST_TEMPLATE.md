@@ -4,6 +4,6 @@ _Issues fixed by this PR (if any):_
 
 ## Presubmit checklist
 
-- [ ] This PR adheres to the architectural principles outlined in the project documentation.
-- [ ] This PR has been written in accordance with the architectural guidelines of the project.
-- [ ] By submitting this PR, I agree to the terms stated in the Contributor License Agreement (CLA) related to this project.
+- [ ] This PR adheres to the architectural [principles](https://github.com/melodysdreamj/JuneArchitecture/blob/main/.github/principles.md) outlined in the project documentation.
+- [ ] This PR has been written in accordance with the architectural [guidelines](https://github.com/melodysdreamj/JuneArchitecture/blob/main/.github/guidelines.md) of the project.
+- [ ] By submitting this PR, I agree to the terms stated in the [Contributor License Agreement (CLA)](https://github.com/melodysdreamj/JuneArchitecture/blob/main/.github/Contributor%20License%20Agreement.md) related to this project.
