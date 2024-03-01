@@ -12,3 +12,6 @@
    it, and then paste it into the cloned project.
 
 [Add More Steps Here If Needed]
+
+### Tags
+[Add Tags Here If Needed]
