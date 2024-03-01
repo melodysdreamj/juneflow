@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/melodysdreamj/JuneFlutter/document/logo.png" alt="logo" width="25%" />
+  <img src="https://github.com/melodysdreamj/JuneArchitecture/blob/main/assets/splash/icon.png?raw=true" alt="logo" width="25%" />
 </p>
 <h1 align="center">
   June Architecture
@@ -22,5 +22,11 @@
 flutter pub get
 flutter run
 ```
+
+## Community
+[![Discord Server Invite](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)
+[![Kakao_Talk](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
+
+
 
 ## 🚧 Under Construction.. 🚧
