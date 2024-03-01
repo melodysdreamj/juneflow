@@ -37,7 +37,7 @@ class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
     if (localTag == null && widget.tag != null) localTag = widget.tag;
 
     widget.params.context = context;
-    refreshView(widget.params, widget.params.context, localTag);
+    if (isReadyView) refreshView(widget.params, widget.params.context, localTag);
     return (!isReadyView)
         ? LoadingComponent(
             params: widget.params,

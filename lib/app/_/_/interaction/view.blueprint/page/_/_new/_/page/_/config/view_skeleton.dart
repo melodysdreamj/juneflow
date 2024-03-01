@@ -34,7 +34,7 @@ class _ViewState extends State<NewView> with AfterLayoutMixin<NewView> {
 
   @override
   Widget build(BuildContext context) {
-    refreshView(widget.params, context, widget.tag, widget.slug);
+    if (isReadyView) refreshView(widget.params, context, widget.tag, widget.slug);
     return (!isReadyView)
         ? LoadingComponent(
             params: widget.params,
