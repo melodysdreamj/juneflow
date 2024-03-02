@@ -1,6 +1,6 @@
 # [View_Folder_Name] Guide
 
-### install Step
+### How To Use
 
 1. This view operates on top of JuneArchitecture. To use it, please first read the
    JuneArchitecture [README](https://github.com/melodysdreamj/JuneArchitecture) and clone the project. If you're already
