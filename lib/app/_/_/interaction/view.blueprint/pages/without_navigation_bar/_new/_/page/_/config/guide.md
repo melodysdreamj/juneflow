@@ -1,8 +1,5 @@
 # [View_Folder_Name] Guide
 
-### Contributors
-[[GITHUB_ID]](https://github.com/[GITHUB_ID])
-
 ### install Step
 
 1. This view operates on top of JuneArchitecture. To use it, please first read the
