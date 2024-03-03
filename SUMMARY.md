@@ -5,8 +5,8 @@
 
 ## Frond
 
-* [Hello View World](frond/hello-view-world/README.md)
-  * [Create Page](frond/hello-view-world/create-page.md)
+* [Hello World](frond/hello-world/README.md)
+  * [Create Page](frond/hello-world/create-page.md)
 
 ## UI
 
