@@ -4,7 +4,7 @@ description: This explains how to create a new page.
 
 # Create Page
 
-
+{% embed url="https://youtu.be/3BILvU3ouBU" %}
 
 1. Look at the pages in the following path(`lib/app/_/_/interaction/view.blueprint/page/_/_new`) and copy the appropriate folder.&#x20;
 2. After copying the folder, move it to the following location(`lib/app/_/_/interaction/view/_/_/`) and paste it there. Rename the pasted folder to `[page_name]`
