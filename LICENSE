@@ -3,15 +3,7 @@ LICENSE
 This project is available under two licensing options:
 
 1. Closed Source Use - MIT License
-This license permits the use of this project for any purpose,
-commercial or non-commercial, in a closed-source manner.
-This means that you are allowed to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the software
-in products or services (including mobile apps, desktop apps, websites, etc.)
-where the source code derived from this project is not made publicly available.
-This includes distributing such products or services through channels
-like app stores, where the end product is accessible to the public
-but the source code remains private.
+This license permits the use of this project for any purpose, commercial or non-commercial, in a closed-source manner. This means that you are allowed to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software in products or services (including mobile apps, desktop apps, websites, etc.) where the source code derived from this project is not made publicly available. This includes distributing such products or services through channels like app stores, where the end product is accessible to the public but the source code remains private.
 
 More details: https://opensource.org/licenses/MIT
 
@@ -19,12 +11,8 @@ More details: https://opensource.org/licenses/MIT
 If disclosing the project's code or creating derivative works, including open-source 
 projects or selling templates, the following conditions apply:
 
-- If the derivative works maintain compatibility with the original repository 
-(meaning, merging with the original repository does not cause conflicts except for 
-`*.md` files and 'start_app.dart' file), they will inherit the project's original licensing conditions.
+- If the derivative works maintain compatibility with the original repository (meaning, merging with the original repository does not cause conflicts except for `*.md` files and 'start_app.dart' and 'global_import.dart' file), they will inherit the project's original licensing conditions.
 
-- If the derivative works do not maintain compatibility with the original repository or 
-are intended for sale, the GPL License applies. All such works must be disclosed under 
-the same GPL License conditions, ensuring contributions back to the open-source community.
+- If the derivative works do not maintain compatibility with the original repository or are intended for sale, the GPL License applies. All such works must be disclosed under the same GPL License conditions, ensuring contributions back to the open-source community.
 
 More details: https://www.gnu.org/licenses/gpl-3.0.html
