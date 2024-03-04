@@ -5,16 +5,17 @@ import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 import '../../app/_/_/interaction/listener/_/app_life_cycle/when_open_app.dart';
 import '../start_app.dart';
-import 'awesome_notifications/ready.dart';
-import 'easy_localization/ready.dart';
-import 'hive/ready.dart';
-import 'logger/ready.dart';
-import 'my_app_version_change/ready.dart';
-import 'package_info/ready.dart';
-import 'timeago/ready.dart';
 
-import 'web_url_strategy/none.dart'
-    if (dart.library.html) 'web_url_strategy/_.dart' as url_strategy;
+import 'app/awesome_notification/ready.dart';
+import 'app/my_app_version_change/ready.dart';
+import 'run_app/easy_localization/ready.dart';
+import 'run_app/hive/ready.dart';
+import 'run_app/logger/ready.dart';
+import 'run_app/package_info/ready.dart';
+import 'run_app/timeago/ready.dart';
+import 'run_app/web_url_strategy/none.dart'
+    if (dart.library.html) 'run_app/web_url_strategy/_.dart' as url_strategy;
+import 'run_app/widgets_binding/ready.dart';
 
 readyForRunAppStart() async {
   if (_readyForRunAppStart) return;
@@ -22,7 +23,9 @@ readyForRunAppStart() async {
 
   url_strategy.readyForWebUrlStrategy();
 
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  readyForWidgetsBinding();
+
+
 
   await readyForEasyLocalization();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
@@ -32,8 +35,6 @@ readyForRunAppStart() async {
 
   await readyForPackageInfo();
   await readyForTimeAgo();
-
-  // await readyObserver();
 }
 
 readyForMaterialAppStart() async {

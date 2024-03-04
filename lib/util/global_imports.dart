@@ -17,6 +17,8 @@
 //
 // export 'params/event_bus.dart';
 
+export 'params/widgets_binding.dart';
+
 export 'handler/logger/_.dart';
 
 export 'params/my_package_info.dart';

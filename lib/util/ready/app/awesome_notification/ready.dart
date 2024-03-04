@@ -1,15 +1,15 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
 
-import '../../../app/_/_/interaction/listener/_/awsome_notifications/action_received_stream.dart';
-import '../../../app/_/_/interaction/listener/_/awsome_notifications/dismissed_action_stream.dart';
-import '../../../app/_/_/interaction/listener/_/awsome_notifications/notification_created_stream.dart';
-import '../../../app/_/_/interaction/listener/_/awsome_notifications/notification_displayed_stream.dart';
-import '../../config/notification_channel.dart';
-import '../../start_app.dart';
+import '../../../../app/_/_/interaction/listener/_/awesome_notifications/action_received_stream.dart';
+import '../../../../app/_/_/interaction/listener/_/awesome_notifications/dismissed_action_stream.dart';
+import '../../../../app/_/_/interaction/listener/_/awesome_notifications/notification_created_stream.dart';
+import '../../../../app/_/_/interaction/listener/_/awesome_notifications/notification_displayed_stream.dart';
+import '../../../config/notification_channel.dart';
+import '../../../start_app.dart';
 
 Future<void> readyForAwesomeNotifications() async {
   AwesomeNotifications().initialize(
-      // set the icon to null if you want to use the default app icon
+    // set the icon to null if you want to use the default app icon
       null,
       NotificationChannelConfig.channelList);
 

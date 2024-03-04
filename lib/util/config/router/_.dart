@@ -43,6 +43,7 @@ final GoRouter app_router = GoRouter(
 //     ),
   ],
   redirect: (BuildContext context, GoRouterState state) async {
+
     await readyForAppStart(context);
     return null;
   },
