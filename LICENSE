@@ -2,11 +2,16 @@ LICENSE
 
 This project is available under two licensing options:
 
-1. Private Use - MIT License
-For private use of this project, whether for commercial or non-commercial purposes 
-(e.g., development of mobile apps, desktop apps, websites, etc.), the MIT License applies. 
-You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or 
-sell the software under this license.
+1. Closed Source Use - MIT License
+This license permits the use of this project for any purpose,
+commercial or non-commercial, in a closed-source manner.
+This means that you are allowed to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the software
+in products or services (including mobile apps, desktop apps, websites, etc.)
+where the source code derived from this project is not made publicly available.
+This includes distributing such products or services through channels
+like app stores, where the end product is accessible to the public
+but the source code remains private.
 
 More details: https://opensource.org/licenses/MIT
 

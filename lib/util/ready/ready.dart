@@ -20,9 +20,7 @@ readyForRunAppStart() async {
   if (_readyForRunAppStart) return;
   _readyForRunAppStart = true;
 
-  if (kIsWeb) {
-    url_strategy.readyForWebUrlStrategy();
-  }
+  url_strategy.readyForWebUrlStrategy();
 
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
 
