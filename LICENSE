@@ -21,7 +21,7 @@ projects or selling templates, the following conditions apply:
 
 - If the derivative works maintain compatibility with the original repository 
 (meaning, merging with the original repository does not cause conflicts except for 
-`*.md` files), they will inherit the project's original licensing conditions.
+`*.md` files and 'start_app.dart' file), they will inherit the project's original licensing conditions.
 
 - If the derivative works do not maintain compatibility with the original repository or 
 are intended for sale, the GPL License applies. All such works must be disclosed under 
