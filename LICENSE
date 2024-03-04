@@ -1,19 +1,25 @@
-# LICENSE
+LICENSE
 
-This project is made available under two licensing options, depending on the situation:
+This project is available under two licensing options:
 
-## 1. Private Use - MIT License
+1. Private Use - MIT License
+For private use of this project, whether for commercial or non-commercial purposes 
+(e.g., development of mobile apps, desktop apps, websites, etc.), the MIT License applies. 
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+sell the software under this license.
 
-For private use of this project (e.g., development of mobile apps, desktop apps, websites, etc.), the MIT License applies. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell the software. However, any use of the software under this license must include the following copyright notice and permission notice in all copies or substantial portions of the Software.
+More details: https://opensource.org/licenses/MIT
 
-For more details, refer to the [MIT License full text](https://opensource.org/licenses/MIT).
+2. Open Source Distribution - GPL License
+If disclosing the project's code or creating derivative works, including open-source 
+projects or selling templates, the following conditions apply:
 
-## 2. Public Disclosure - GPL License
+- If the derivative works maintain compatibility with the original repository 
+(meaning, merging with the original repository does not cause conflicts except for 
+`*.md` files), they will inherit the project's original licensing conditions.
 
-If you wish to disclose the project's code or base derivative works on this project (e.g., open-source projects, creating and selling templates, etc.) publicly, the GPL License conditions apply. The GPL License allows you to use, copy, modify, and distribute the software and its derivative works, but all derivative works must be disclosed under the same GPL License conditions. This ensures that the software and all derivative works contribute back to the open-source community.
+- If the derivative works do not maintain compatibility with the original repository or 
+are intended for sale, the GPL License applies. All such works must be disclosed under 
+the same GPL License conditions, ensuring contributions back to the open-source community.
 
-For more details, refer to the [GNU General Public License, version 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html).
-
-## 3. Compatibility Maintaining Derivative Works
-
-Any derivative works (e.g., extenders) developed after forking this project, which maintain compatibility with the original repository (meaning, merging with the original repository does not cause conflicts except for `*.md` files), will inherit the same licensing conditions as this project. This means such derivative works are subject to the dual licensing conditions specified in this project's license file.
+More details: https://www.gnu.org/licenses/gpl-3.0.html
