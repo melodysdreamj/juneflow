@@ -37,8 +37,6 @@ export 'package:styled_widget/styled_widget.dart';
 export 'package:flutter/services.dart';
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 
-// export 'params/assets.gen.dart';
-
 export 'package:modal_bottom_sheet/src/bottom_sheets/bar_bottom_sheet.dart';
 export 'package:modal_bottom_sheet/src/utils/modal_scroll_controller.dart';
 

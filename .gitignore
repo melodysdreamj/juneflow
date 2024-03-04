@@ -154,3 +154,6 @@ lib/firebase_options.second.dart
 test/widget_test.dart
 lib/note_view.dart
 lib/note.dart
+
+.clone-june-flutter/**
+.clone-june-flutter/

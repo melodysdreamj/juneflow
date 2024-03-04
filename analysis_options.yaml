@@ -10,6 +10,7 @@ analyzer:
     dead_null_aware_expression: ignore
   exclude:
     - extension/**
+    - .clone-june-flutter/**
 
 linter:
   rules:
