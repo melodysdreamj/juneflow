@@ -47,5 +47,3 @@ export 'package:loader_overlay/loader_overlay.dart';
 export 'package:junes_flutter_architecture/junes_flutter_architecture.dart';
 
 export 'package:june/june.dart';
-
-_check() {}

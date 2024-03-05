@@ -1,5 +1,8 @@
 import 'package:timeago/timeago.dart' as timeago;
 
+import '../../../main.dart';
+
+@ReadyRunApp()
 Future<void> readyForTimeAgo() async {
   // timeago.setLocaleMessages('ar', timeago.ArMessages());
   // timeago.setLocaleMessages('ar_short', timeago.ArShortMessages());

@@ -1,7 +1,8 @@
 import 'package:package_info_plus/package_info_plus.dart' as package_info_plus;
 
-import '../../../start_app.dart';
+import '../../start_app.dart';
 
+@ReadyRunApp()
 Future<void> readyForPackageInfo() async {
   package_info_plus.PackageInfo packageInfo =
       await package_info_plus.PackageInfo.fromPlatform();
