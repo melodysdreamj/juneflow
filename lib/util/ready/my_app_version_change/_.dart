@@ -7,7 +7,7 @@ import '../../../main.dart';
 import '../../params/my_package_info.dart';
 
 @ReadyApp()
-readyForMyAppVersionChange() {
+Future<void> readyForMyAppVersionChange() async {
   if (kIsWeb) return;
   int oldAppVersionNum = hiveBox.get("myVersionListener - versionNumber") ?? 0;
   int nowAppVersionNum = int.parse(MyPackageInfo.buildNumber);
