@@ -1,0 +1,38 @@
+############################################
+# copy_path:
+# Copies the specified files or folders to the user's project from the given location.
+# This feature allows for easy reuse of specific resources.
+############################################
+#copy_path:
+# - lib/util/some_folder
+# - lib/util/some_file.dart
+
+############################################
+# add_line_to_gitignore:
+# Adds the specified string to the gitignore file.
+# This feature is useful for managing files or folders that should be ignored by the project.
+############################################
+#add_line_to_gitignore:
+# - contents
+
+############################################
+# add_code_block_to_pubspec:
+# Searches for a specific block_identifier within the pubspec file.
+# If the identifier does not exist, it adds the block_content as shown in the example.
+# This feature is used to automatically add necessary code blocks to the project settings.
+############################################
+#add_code_block_to_pubspec:
+#  - example1: |
+#      # Here is the content of the first code block
+#  - example2: |
+#      # Here is the content of the second code block
+
+############################################
+# add_line_to_global_imports:
+# Adds the specified lines to the global_imports.dart file. This feature ensures that
+# unique imports or lines of code are added to the global_imports.dart, maintaining
+# clean and efficient code management.
+############################################
+#add_line_to_global_imports:
+# - export 'package:some_package/some_file.dart';
+# - export 'package:another_package/another_file.dart';
