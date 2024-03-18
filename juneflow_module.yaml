@@ -4,8 +4,16 @@
 # This feature allows for easy reuse of specific resources.
 ############################################
 #copy_path:
-# - lib/util/some_folder
-# - lib/util/some_file.dart
+# - lib/util/_/initial_app/build_app_widget/build_material_app/_new
+# - lib/util/_/initial_app/build_app_widget/build_my_app/_new
+# - lib/util/_/initial_app/build_app_widget/build_run_app/_new
+# - lib/util/_/initial_app/ready_functions/after_material_app/_new
+# - lib/util/_/initial_app/ready_functions/before_material_app/_new
+# - lib/util/_/initial_app/ready_functions/before_run_app/_new
+# - lib/util/_/module_functions/_new
+# - lib/util/_/shared_params/_new
+# - lib/util/config/_new
+# - lib/util/usage/_new
 
 ############################################
 # add_line_to_gitignore:
