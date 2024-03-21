@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/melodysdreamj/juneflow/blob/document/assets/small_icon.png?raw=true" alt="logo" width="25%" />
+  <img src="https://github.com/melodysdreamj/juneflow/blob/document/assets/icon.png?raw=true" alt="logo" width="25%" />
 </p>
 <h1 align="center">
   JuneFlow
