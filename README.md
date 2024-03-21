@@ -9,19 +9,23 @@
 
 </p>
 
-## Get Started
+## Quick Started
+1. Please enter the following command in the terminal.
+    ```bash
+    dart pub global activate juneflow_cli
+    june create-app
+    ```
+2. After that, press enter to select the default project.
+3. Please enter the name of the project you want to use (only lowercase letters and underscores are allowed).
+4. Please create the project by entering the package name.
 
-1. Click on "Use this template" at the top to create your own repository, and then clone the created
-   repository to your computer.
-2. open the Find and Replace window (Edit -> Find -> Replace in Files...) and search for "
-   june.lee.love" to replace it with the desired package name.
-3. Change 'name: love' in pubspec.yaml to name:
-4. Enter the following command in the terminal to start the project.
 
-```bash
-flutter pub get
-flutter run 
-```
+
+
+
+
+
+
 
 ## Community
 [![Discord Server Invite](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)

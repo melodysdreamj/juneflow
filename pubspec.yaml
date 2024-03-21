@@ -1,6 +1,7 @@
-name: love
-description: "A new Flutter project."
-publish_to: 'none'
+name: juneflow
+description: "JuneFlow Project"
+#publish_to: 'none'
+repository: https://github.com/melodysdreamj/juneflow
 
 version: 1.0.0+1
 
@@ -9,6 +10,8 @@ environment:
 
 dependencies:
   flutter:
+    sdk: flutter
+  flutter_web_plugins:
     sdk: flutter
   go_router: ^13.2.0
   june_flow_util:
