@@ -69,7 +69,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 .fvm/flutter_sdk
-#pubspec.lock
+pubspec.lock
 
 
 # Logs
