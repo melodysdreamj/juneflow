@@ -115,12 +115,9 @@ arch -arm64 brew tap wix/brew
 arch -arm64 brew install applesimutils
 ```
 
-
-
 2. For asset generation, enter the following:
 
 ```bash
 arch -arm64 brew install FlutterGen/tap/fluttergen
 dart pub global activate flutter_gen
 ```
-
