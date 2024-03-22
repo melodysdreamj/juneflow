@@ -1,2 +1,0 @@
-# Get View From Store
-

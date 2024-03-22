@@ -1,2 +1,0 @@
-# Various View Type
-
