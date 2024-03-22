@@ -1,6 +1,6 @@
-[![pub package](https://img.shields.io/pub/v/New.svg)](https://pub.dartlang.org/packages/New)
+[![pub package](https://img.shields.io/pub/v/NewModule.svg)](https://pub.dartlang.org/packages/NewModule)
 
-# New
+# NewModule
 This module is a module of the juneflow
 
 ## Quick Started
@@ -15,7 +15,7 @@ This module is a module of the juneflow
    4. Please create the project by entering the package name.
 2. open terminal in the project root, enter the following command.
     ```bash
-    june add New
+    june add NewModule
     ```
 
 ## Description & Usage
