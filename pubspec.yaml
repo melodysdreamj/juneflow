@@ -1,7 +1,7 @@
 name: juneflow
 description: "JuneFlow Project"
 #publish_to: 'none'
-repository: https://github.com/melodysdreamj/juneflow
+#repository: https://github.com/melodysdreamj/juneflow
 
 version: 1.0.0+1
 
