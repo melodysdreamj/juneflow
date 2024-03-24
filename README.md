@@ -1,5 +1,10 @@
 [![pub package](https://img.shields.io/pub/v/NewModule.svg)](https://pub.dartlang.org/packages/NewModule)
 
+<p>
+  <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
+  <a href="https://doc.juneflow.org/get-started">Documentation</a>
+</p>
+
 # NewModule
 description here
 
