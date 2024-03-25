@@ -1,21 +1,21 @@
-LICENSE
+MIT License
 
-This project is governed by four distinct licensing conditions, based on the nature of the derivative works and their compatibility with the original project. "Compatibility" is defined as the ability of the derivative work to integrate with the original project without causing conflicts, except for specific files (*.md, start_app.dart, global_import.dart, .*, analysis_options.yaml).
+Copyright (c) 2024 june lee
 
-1. Closed Source Use (MIT License)
-   - This license allows the use of this project in a closed-source manner for any purpose, commercial or non-commercial.
-   - Under this condition, the source code derived from this project must not be made publicly available.
-   - You are allowed to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software in products or services (including mobile apps, desktop apps, websites, etc.), as long as the derived source code is kept private.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. Open Source Distribution (Compatible with Original)
-   - If the derivative work maintains compatibility with the original project, meaning it can be integrated without causing conflicts (except for the specified files), then the original project's licensing conditions are inherited. For detailed licensing information of the original project, please refer to [this link](https://github.com/melodysdreamj/juneflow).
-   - This approach allows for the use of the project under the original terms, requiring the source code and any derivative works to be made publicly available under the same licensing conditions.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. Open Source Distribution (Incompatible with Original, GPL License)
-   - If the derivative works do not maintain compatibility with the original project, or if integration causes conflicts beyond the specified files, then the GPL License applies.
-   - Such works must be disclosed under the GPL License conditions, ensuring contributions back to the open-source community.
-   - This condition mandates the public disclosure of the source code and all derivative works under the GPL License.
-
-4. Commercial Educational Use Specific to Flutter
-   - This project can be utilized for educational purposes, including commercial educational programs specifically related to Flutter. All conditions for use and registration of educational programs are available [here](https://www.notion.so/melodysdreamj/juneflow-license-5fb42b45e86244d5b2be61221c019218). A fee is applied for the use of this project for commercial educational purposes related to Flutter, aimed exclusively at supporting the sustainable development of the juneflow project. All revenues collected will be solely dedicated to the maintenance and development of the juneflow project. This includes, but is not limited to, development efforts; it also encompasses essential activities for the project's upkeep such as infrastructure costs, community support, and documentation improvements.
-   - Utilizing this project for commercial educational programs related to Flutter aims to continuously contribute to the community and the open-source ecosystem. It raises awareness of the project, encourages more users and developers to participate, while securing funds for the long-term development of the project.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
