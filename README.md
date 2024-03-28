@@ -20,17 +20,13 @@
 4. Please create the project by entering the package name.
 
 
-
-
-
-
-
+## Module & View List
+- [Module List](https://github.com/melodysdreamj/juneflow/tree/module-list)
 
 
 ## Community
 [![Discord Server Invite](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)
 [![Kakao_Talk](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
-
 
 
 ## Documentation
