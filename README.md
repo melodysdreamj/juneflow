@@ -22,6 +22,7 @@
 
 ## Module & View List
 - [Module List](https://github.com/melodysdreamj/juneflow/tree/module-list)
+- [View List](https://github.com/melodysdreamj/june_view_store/tree/view-list)
 
 
 ## Community
