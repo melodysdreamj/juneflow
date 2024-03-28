@@ -9,29 +9,17 @@
 
 </p>
 
-## Quick Started
-1. Please enter the following command in the terminal.
-    ```bash
-    dart pub global activate juneflow_cli
-    june create-app
-    ```
-2. After that, press "1" to select the default project.
-3. Please enter the name of the project you want to use (only lowercase letters and underscores are allowed).
-4. Please create the project by entering the package name.
-
-
-
-
-
-
-
-
-
-## Community
-[![Discord Server Invite](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)
-[![Kakao_Talk](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
-
-
-
-## Documentation
-https://doc.juneflow.org/get-started
+## Module List
+* https://pub.dev/packages/screenutil_module
+* https://pub.dev/packages/logger_module
+* https://pub.dev/packages/device_preview_module
+* https://pub.dev/packages/june_view
+* https://pub.dev/packages/june_view_more
+* https://pub.dev/packages/bot_toast_module
+* https://pub.dev/packages/path_url_strategy_module
+* https://pub.dev/packages/package_info_plus_module
+* https://pub.dev/packages/hive_module
+* https://pub.dev/packages/flutter_native_splash_module
+* https://pub.dev/packages/flutter_lints_module
+* https://pub.dev/packages/flutter_fgbg_module
+* https://pub.dev/packages/cupertino_icons_module
