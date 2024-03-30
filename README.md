@@ -23,3 +23,4 @@
 * https://pub.dev/packages/flutter_lints_module
 * https://pub.dev/packages/flutter_fgbg_module
 * https://pub.dev/packages/cupertino_icons_module
+* https://pub.dev/packages/flutter_launcher_icons_module
