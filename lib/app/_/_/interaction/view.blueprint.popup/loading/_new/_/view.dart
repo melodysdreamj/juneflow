@@ -1,0 +1,29 @@
+import 'package:flutter/material.dart';
+
+import '../../../../../../../../main.dart';
+import '_/state_child.dart';
+import '_/state_mother.dart';
+
+class NewView extends StatefulWidget {
+  NewView({super.key});
+
+  @override
+  State<NewView> createState() => StateChild();
+}
+
+class NewViewState extends State<NewView> with StateMother {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.blue,
+      child: const Text("New Loading")
+          .fontWeight(FontWeight.bold)
+          .textAlignment(TextAlign.center)
+          .center(),
+    ).height(100).width(100);
+  }
+}
+
+main() async {
+  return buildApp(appHome: NewView());
+}

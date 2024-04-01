@@ -3,8 +3,11 @@ import '../../../../../main.dart';
 
 import '../../../../config/_/router/_/_.dart';
 import '../../../shared_params/_/material_app.dart';
+import 'device_preview_module/_.dart';
 
 Widget materialAppInsideBuilder(BuildContext context, Widget? child) {
+  child = coverDevicePreviewModule(context, child!);
+
   return child!;
 }
 
@@ -14,8 +17,7 @@ Widget Function() MaterialAppBuilder(BuildContext context) {
         routerDelegate: app_router.routerDelegate,
         routeInformationProvider: app_router.routeInformationProvider,
         localizationsDelegates: MaterialAppParams.localizationsDelegates,
-        supportedLocales: MaterialAppParams.supportedLocales ??
-            const <Locale>[Locale('en', 'US')],
+        supportedLocales: MaterialAppParams.supportedLocales ?? const <Locale>[Locale('en', 'US')],
         locale: MaterialAppParams.locale,
         title: MaterialAppParams.appName ?? 'June',
         theme: MaterialAppParams.lightTheme,
