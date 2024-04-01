@@ -84,18 +84,18 @@ packages:
     dependency: "direct main"
     description:
       name: go_router
-      sha256: "170c46e237d6eb0e6e9f0e8b3f56101e14fb64f787016e42edd74c39cf8b176a"
+      sha256: "5ed2687bc961f33a752017ccaa7edead3e5601b28b6376a5901bf24728556b85"
       url: "https://pub.dev"
     source: hosted
-    version: "13.2.0"
+    version: "13.2.2"
   june_flow_util:
     dependency: "direct main"
     description:
       name: june_flow_util
-      sha256: a9afa2196f88ab9811754e3f4ed810a46b888536a91eab16713e1be47172c7a6
+      sha256: "5af3b9be88120553a4e923bda4daa225e732079faac9e7ed1cb829cb37ad57ad"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.12"
+    version: "0.8.19"
   leak_tracker:
     dependency: transitive
     description:
@@ -255,4 +255,4 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.1 <4.0.0"
-  flutter: ">=3.13.0"
+  flutter: ">=3.16.0"
