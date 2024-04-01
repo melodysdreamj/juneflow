@@ -19,7 +19,6 @@
 
 
 ## Documentation
-[![](https://img.shields.io/badge/quick-start-007?style=for-the-badge&logo=flutter)](https://open.kakao.com/o/gEwrffbg)
-[![](https://img.shields.io/badge/doc-open-FEE50?style=for-the-badge&logo=flutter)](https://open.kakao.com/o/gEwrffbg)
+[![](https://img.shields.io/badge/quick-start-00700?style=for-the-badge&logo=flutter)](https://open.kakao.com/o/gEwrffbg)
 
 
