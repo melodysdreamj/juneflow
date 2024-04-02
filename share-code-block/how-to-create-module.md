@@ -59,7 +59,7 @@ flutter_native_splash:
 3. In the `description:`, you also provide detailed information about the module.
 4. In the README.md, you also write the description of the module under "description here".
 5. In the README.md, write how to use it under "Usage here". If not applicable, please delete the #Usage section.
-6. Please provide the text you'd like to input for registration on pub dev.
+6. Please register on pub dev by entering the following command.
 
 ```
 dart pub publish
