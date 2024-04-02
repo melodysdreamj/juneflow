@@ -4,8 +4,8 @@
 
 
 Welcome to the Community Contribution GitHub repository for juneflow which is used for:
-- Adding new module to the website ([link](https://github.com/fluttergems/fluttergems#how-to-add-a-new-package-to-flutter-gems-also-used-for-reporting-issues-providing-feedback-and-making-new-feature-requests)),
-- Adding new view to the website ([link](https://github.com/fluttergems/fluttergems#how-to-add-a-new-package-to-flutter-gems-also-used-for-reporting-issues-providing-feedback-and-making-new-feature-requests)),
+- Adding new module to the website ([link](https://github.com/melodysdreamj/juneflow/tree/contribution-guide?tab=readme-ov-file#how-to-add-a-new-module-to-juneflow-also-used-for-reporting-issues-providing-feedback-and-making-new-feature-requests)),
+- Adding new view to the website ([link](https://github.com/melodysdreamj/juneflow/tree/contribution-guide?tab=readme-ov-file#how-to-add-a-new-module-to-juneflow-also-used-for-reporting-issues-providing-feedback-and-making-new-feature-requests)),
 - Issue reporting,
 - Feedback, and
 - New feature requests
