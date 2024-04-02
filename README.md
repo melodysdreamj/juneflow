@@ -20,7 +20,7 @@ Please follow the instructions provided below to get started:
 
 **Step 2** - Click on **New Issue**
 
-![](https://github.com/melodysdreamj/juneflow/blob/contribution-guide/.github/readme_asset/2.png)
+![](https://github.com/melodysdreamj/juneflow/blob/contribution-guide/.github/readme_asset/2.png?raw=true)
 
 **Step 3** - Choose one of the provided issue templates as shown below to
 - Add a new module
@@ -28,11 +28,11 @@ Please follow the instructions provided below to get started:
 - Provide feedback and/or request a new feature
 - Report any bug on the website
 
-![](https://github.com/melodysdreamj/juneflow/blob/contribution-guide/.github/readme_asset/3.png)
+![](https://github.com/melodysdreamj/juneflow/blob/contribution-guide/.github/readme_asset/3.png?raw=true)
 
 **Step 4** - FIll in the details
 
-![](https://github.com/melodysdreamj/juneflow/blob/contribution-guide/.github/readme_asset/4.png)
+![](https://github.com/melodysdreamj/juneflow/blob/contribution-guide/.github/readme_asset/4.png?raw=true)
 
 
 
