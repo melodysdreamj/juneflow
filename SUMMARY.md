@@ -13,7 +13,6 @@
 
 ## JuneView
 
-* [Apply JuneView Module](juneview/apply-juneview-module.md)
 * [Understand](juneview/understand.md)
 * [Get View From Hub](juneview/get-view-from-hub.md)
 
