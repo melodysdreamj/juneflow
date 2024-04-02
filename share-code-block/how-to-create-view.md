@@ -33,3 +33,4 @@
 dart pub publish
 ```
 
+6. Please register the view created according to [this guide](https://github.com/melodysdreamj/juneflow/tree/contribution-guide).

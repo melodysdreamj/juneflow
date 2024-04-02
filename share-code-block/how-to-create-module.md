@@ -48,10 +48,6 @@ flutter_native_splash:
 
 
 
-
-
-
-
 ### Dedeply Module&#x20;
 
 1. After uploading the module to GitHub,
@@ -65,8 +61,8 @@ flutter_native_splash:
 dart pub publish
 ```
 
-\
-\
+7. Please register the module created according to [this guide](https://github.com/melodysdreamj/juneflow/tree/contribution-guide).\
+   \
 
 
 \
