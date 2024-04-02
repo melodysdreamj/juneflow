@@ -5,18 +5,22 @@
   JuneFlow
 </h1>
 <p align="center">
-  An application development pattern for Flutter<br>
-
+  A Platform for Sharing Flutter Module and View<br>
 </p>
 
-## Documentation
-[![](https://img.shields.io/badge/quick-start-00700?style=for-the-badge&logo=flutter)](https://open.kakao.com/o/gEwrffbg)
+
+## Get Started
+Follow [the guide](https://doc.juneflow.org/) to get started.
 
 ## Hub
+Use Module Hub and View Hub for easy additions.
+
 [![](https://img.shields.io/badge/Module-Hub-007bff?style=for-the-badge&logo=flutter)](https://module.juneflow.org/)
 [![](https://img.shields.io/badge/View-Hub-007bff?style=for-the-badge&logo=flutter)](https://view.juneflow.org/)
 
 ## Community
+Join the community to gain diverse insights.
+
 [![](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)
 [![](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
 
