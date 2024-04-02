@@ -50,8 +50,23 @@ flutter_native_splash:
 
 
 
+
+
 ### Dedeply Module&#x20;
 
+1. After uploading the module to GitHub,
+2. After registering it in the `repository:` section of pubspec,
+3. In the `description:`, you also provide detailed information about the module.
+4. In the README.md, you also write the description of the module under "description here".
+5. In the README.md, write how to use it under "Usage here". If not applicable, please delete the #Usage section.
+6. Please provide the text you'd like to input for registration on pub dev.
+
+```
+dart pub publish
+```
+
+\
+\
 
 
 \
