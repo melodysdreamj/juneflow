@@ -93,10 +93,10 @@ packages:
     dependency: "direct dev"
     description:
       name: device_preview_module
-      sha256: "5b0d0c5298348c52775bc1fdd19a80950ef2125bfa84f33260c9ff9be9f9eb52"
+      sha256: "03e6e958fcc70c73a1a0bc38f2262601a292d709c0002053894a0370f76fd55e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "1.0.0"
   fake_async:
     dependency: transitive
     description:
@@ -186,10 +186,10 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints_module
-      sha256: bca0a64fbe2c3a0d873ad5b25098414f7088873db28e09df219c45b62e23a942
+      sha256: "0dffbd9c0cb57f4b781b6318e9079836a63f237fe56491b7b0fa8f772404aca5"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1+7"
+    version: "1.0.1"
   flutter_localizations:
     dependency: transitive
     description: flutter
@@ -281,10 +281,10 @@ packages:
     dependency: "direct dev"
     description:
       name: hive_module
-      sha256: "88466478f0a0376895e769a5660a1749be18bc10969e738dcf665159b8dd5993"
+      sha256: a676e4ea620f40984a1d8965b11254614dd631a60fe847542ef07aa251d404b2
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0+4"
+    version: "1.0.1"
   http:
     dependency: transitive
     description:
@@ -337,18 +337,18 @@ packages:
     dependency: "direct dev"
     description:
       name: june_view
-      sha256: "57458c4da2b4de06ec32ede7abad8833c7f5da2f9f0b9a7aa039f3ca51e71e82"
+      sha256: "42715b54eadc7fbab17ca37c692b00c740dcbc8d086c79bb65e35f33b5493109"
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.9"
+    version: "1.5.9"
   june_view_more:
     dependency: "direct dev"
     description:
       name: june_view_more
-      sha256: "87a0c5c8c780049eb11fdd42b42475d47e4fc205de7d1b186d12288375cfb2ff"
+      sha256: ca1e932461b6605760460fc8a7f0f17da05431d3401db6a1ee6dfc8968be76c7
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.15"
+    version: "0.3.1"
   keyboard_attachable:
     dependency: "direct main"
     description:
@@ -553,10 +553,10 @@ packages:
     dependency: "direct dev"
     description:
       name: screenutil_module
-      sha256: a37a499c516f78b18492f87b4e9f638b6415d4b641e6e05bce10865b29d05795
+      sha256: be2673ea36c7512836a2c81a131c4343a728a1b18812913fdadb8166b2c9457c
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0+2"
+    version: "1.0.1"
   shared_preferences:
     dependency: transitive
     description:
