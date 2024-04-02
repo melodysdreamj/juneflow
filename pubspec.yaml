@@ -28,13 +28,13 @@ dependencies:
 dev_dependencies:
   device_preview_module: ^1.0.0
   flutter_lints: ^3.0.2
-  flutter_lints_module: ^0.0.1+7
+  flutter_lints_module: ^1.0.1
   flutter_test:
     sdk: flutter
-  hive_module: ^1.0.0+4
-  june_view: ^1.4.9
-  june_view_more: ^0.2.15
-  screenutil_module: ^1.0.0+2
+  hive_module: ^1.0.1
+  june_view: ^1.5.9
+  june_view_more: ^0.3.0
+  screenutil_module: ^1.0.1
 
 flutter:
   uses-material-design: true
