@@ -8,7 +8,7 @@ june create-app
 ```
 
 {% hint style="info" %}
-If this is your first time with pub global, please refer to this page.
+If this is your first time with pub global, please refer to [this page](https://doc.juneflow.org/get-started-1/install-cli).
 {% endhint %}
 
 2. After that, press enter to select the default project.
