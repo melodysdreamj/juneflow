@@ -20,13 +20,14 @@
 ### Dedeply Module&#x20;
 
 1. After uploading the module to GitHub,
-2. After registering it in the `repository:` section of pubspec,
+2. After registering github url in the `repository:` section of pubspec,
 3.  In the README.md, replace the \[execute file path here] section with the actual path of the executable file, for example,&#x20;
 
     ```bash
     lib/app/_/_/interaction/view.blueprint.popup/bottom_sheet/insta_menu_bottom_sheet/usage.dart
     ```
-4. Please register on pub dev by entering the following command.
+4. After launching Flutter and opening the view, take a screenshot to create an image. Then, follow the [next guide](https://gist.github.com/NawalJAhmed/2168f7659c08b6a033e7f6daf8db69a6) to generate the image's URL and place it in the Screenshots section of the README.md file as follows: !\[]\(insert the URL here).
+5. Please register on pub dev by entering the following command.
 
 ```
 dart pub publish
