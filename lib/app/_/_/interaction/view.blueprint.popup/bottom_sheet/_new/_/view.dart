@@ -27,5 +27,5 @@ class NewViewState extends State<NewView> with StateMother {
 }
 
 main() async {
-  return buildApp(appHome: NewView());
+  return buildApp(appHome: NewView().center());
 }
