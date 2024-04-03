@@ -3,9 +3,11 @@ import '../../../../../main.dart';
 
 import '../../../../config/_/router/_/_.dart';
 import '../../../shared_params/_/material_app.dart';
+import 'bot_toast_module/_.dart';
 import 'device_preview_module/_.dart';
 
 Widget materialAppInsideBuilder(BuildContext context, Widget? child) {
+  child = coverBotToastModule(context, child!);
   child = coverDevicePreviewModule(context, child!);
 
   return child!;

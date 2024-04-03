@@ -1,27 +1,24 @@
+It will add the cupertino_icons package to the project and add the necessary settings to the project.
+
 [![pub package](https://img.shields.io/pub/v/flutter_lints_module.svg)](https://pub.dartlang.org/packages/flutter_lints_module)
 
-<p>
-  <a href="https://github.com/melodysdreamj/juneflow">Juneflow</a> •
-  <a href="https://doc.juneflow.org/get-started">Documentation</a>
-</p>
+[![](https://img.shields.io/badge/Module-Hub-007bff?style=for-the-badge&logo=flutter)](https://module.juneflow.org/)
+[![](https://img.shields.io/badge/View-Hub-007bff?style=for-the-badge&logo=flutter)](https://view.juneflow.org/)
+
+[![](https://img.shields.io/badge/DISCORD-JOIN%20SERVER-5663F7?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zXXHvAXCug)
+[![](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
 
 # flutter_lints_module
-This module is a module of the juneflow framework about the cupertino_icons package.
-
-## Quick Started
-1. if you don't have a juneflow project, please create a new juneflow project.
-   1. Please enter the following command in the terminal.
-       ```bash
-       dart pub global activate juneflow_cli
-       june create-app
-       ```
-   2. After that, press enter to select the default project.
-   3. Please enter the name of the project you want to use (only lowercase letters and underscores are allowed).
-   4. Please create the project by entering the package name.
-2. open terminal in the project root, enter the following command.
-    ```bash
-    june add flutter_lints_module
-    ```
-
-## Description & Usage
 It will add the cupertino_icons package to the project and add the necessary settings to the project.
+
+##  Installation
+1. If the juneflow project doesn't exist, please create it by following [this guide](https://doc.juneflow.org/).
+2. open terminal in the juneflow project root directory, enter the following command.
+ ```bash
+ june add flutter_lints_module
+ ```
+
+## Usage
+Usage here
+
+

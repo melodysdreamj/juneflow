@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../../main.dart';
+import 'bot_toast_module/_.dart';
 import 'device_preview_module/_.dart';
 
 /// At this stage, the context is directly received from MyApp,
@@ -8,7 +9,10 @@ import 'device_preview_module/_.dart';
 Future<void> readyBeforeMaterialApp(BuildContext context) async {
 if (_done) return; _done = true;
 
-  await readyForDevicePreviewModule(context);
+  await Future.wait([
+    readyForBotToastModule(context),
+    readyForDevicePreviewModule(context),
+  ]);
 
 
 }

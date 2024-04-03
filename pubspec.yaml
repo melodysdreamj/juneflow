@@ -26,14 +26,15 @@ dependencies:
   styled_widget: ^0.4.1
 
 dev_dependencies:
+  bot_toast_module: ^0.1.2
   device_preview_module: ^1.0.0
   flutter_lints: ^3.0.2
   flutter_lints_module: ^1.0.1
   flutter_test:
     sdk: flutter
   hive_module: ^1.0.1
-  june_view: ^1.5.9
-  june_view_more: ^0.3.0
+  june_view: ^1.5.10
+  june_view_more: ^0.3.2
   screenutil_module: ^1.0.1
 
 flutter:
