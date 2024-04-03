@@ -353,10 +353,10 @@ packages:
     dependency: "direct dev"
     description:
       name: june_view_more
-      sha256: "9d8976cbc280a179dbd3ab57fa50f1acd8a90ce66cfb9194395eec93981779c1"
+      sha256: "6ed73083547c312d56b3f5219e6f0c06026b73ce5674cfe9c608cffcf02558ad"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.2"
+    version: "0.3.3"
   keyboard_attachable:
     dependency: "direct main"
     description:
