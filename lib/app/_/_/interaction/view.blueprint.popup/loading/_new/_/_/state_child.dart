@@ -1,5 +1,4 @@
 import '../../../../../../../../../main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../view.dart';
 
@@ -15,7 +14,7 @@ class StateChild extends NewViewState {
 
   @override
   void initState() {
-    if (ignoreReadyView()) {
+    if (readyState(context) == null) {
       isReadyView = true;
     } else {
       _ready();
@@ -25,8 +24,8 @@ class StateChild extends NewViewState {
   }
 
   Future<void> _ready() async {
-    if (!ignoreReadyView()) {
-      await readyState(context);
+    if (!(readyState(context) == null)) {
+      await readyState(context)!();
     }
     if (mounted) {
       setState(() {
@@ -44,10 +43,10 @@ class StateChild extends NewViewState {
     return super.build(context);
   }
 
-  /// automatically generated action code - don't change this code
+/// automatically generated action code - don't change this code
 
-  /// end of automatically action generated code
-  /// automatically generated event code - don't change this code
+/// end of automatically action generated code
+/// automatically generated event code - don't change this code
 
-  /// end of automatically event generated code
+/// end of automatically event generated code
 }

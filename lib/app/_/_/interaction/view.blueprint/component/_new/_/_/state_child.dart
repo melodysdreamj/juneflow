@@ -15,7 +15,7 @@ class StateChild extends NewViewState {
 
   @override
   void initState() {
-    if (ignoreReadyView()) {
+    if (readyState(context) == null) {
       isReadyView = true;
     } else {
       _ready();
@@ -25,8 +25,8 @@ class StateChild extends NewViewState {
   }
 
   Future<void> _ready() async {
-    if (!ignoreReadyView()) {
-      await readyState(context);
+    if (!(readyState(context) == null)) {
+      await readyState(context)!();
     }
     if (mounted) {
       setState(() {

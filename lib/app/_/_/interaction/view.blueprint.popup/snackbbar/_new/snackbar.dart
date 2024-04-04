@@ -5,7 +5,7 @@ import '_/view.dart';
 
 void NewSnackBar(BuildContext context, int duration) async {
   final snackBar = SnackBar(
-    content: NewView().height(100),
+    content: NewView(),
     backgroundColor: Colors.transparent,
     elevation: 0,
     behavior: SnackBarBehavior.fixed,

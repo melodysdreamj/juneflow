@@ -27,7 +27,7 @@ class _UsageState extends State<Usage> {
             child: ListView(
               children: [
                 const Gap(20),
-                const Text("Snackbar")
+                const Text("Dialog")
                     .textStyle(Theme.of(context).textTheme.displaySmall!)
                     .fontWeight(FontWeight.bold)
                     .center(),

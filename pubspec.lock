@@ -345,18 +345,18 @@ packages:
     dependency: "direct dev"
     description:
       name: june_view
-      sha256: d723fd3cd749b95268a35d909bc3136a6e5b11f90c66f05535d0d16ea521335c
+      sha256: "507b045465fb037544357ab29801a3ad9fdb1480ccd78ebbfd554f2694649a6a"
       url: "https://pub.dev"
     source: hosted
-    version: "1.5.10"
+    version: "1.6.0"
   june_view_more:
     dependency: "direct dev"
     description:
       name: june_view_more
-      sha256: "9036b6d68f6c64eab41f4c40838b8ac11eece4b522537453865711040ea0974b"
+      sha256: b3cceb069182d923d5d760ded2493900f640a6d8d3c1baff9b508480078d1428
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.7"
+    version: "1.6.0"
   keyboard_attachable:
     dependency: "direct main"
     description:
