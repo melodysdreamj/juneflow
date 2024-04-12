@@ -19,5 +19,5 @@ When you use the `pub global` command, it's necessary to have Dart's `pub` tool 
 
 1. Open a terminal.
 2. Edit the profile file for your shell, such as `.bash_profile`, `.bashrc`, `.zshrc`, etc.
-3. Add the following line to the file: `export PATH="$PATH:/path/to/dart-sdk/bin"`.
-4. To apply the changes, either restart your terminal session or source the profile file, e.g., `source ~/.bashrc`.
+3. Add the following line to the file: `export PATH="$PATH":"$HOME/.pub-cache/bin"`.
+4. To apply the changes, either restart your terminal session or source the profile file, e.g., `source ~/.zshrc`.
