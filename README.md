@@ -4,7 +4,7 @@
 
 ```
 dart pub global activate juneflow_cli    
-june create-app
+june create
 ```
 
 {% hint style="info" %}
