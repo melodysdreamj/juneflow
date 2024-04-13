@@ -2,9 +2,9 @@
 
 ### Create Module Template
 
-1. After entering `june create-app`
-2. After entering "4" to select the module template
-3. Please choose a module name. The name should be in a format suitable for uploading to pub dev (lowercase and underscores)
+1. After entering `june create`
+2. After entering "4" to select the view template
+3. Please choose a view name. The name should be in a format suitable for uploading to pub dev (lowercase and underscores)
 
 
 
