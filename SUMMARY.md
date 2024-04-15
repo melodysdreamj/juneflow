@@ -3,7 +3,6 @@
 ## Get Started
 
 * [Create Project](README.md)
-* [Install Cli](get-started-1/install-cli.md)
 
 ## How to Use
 
@@ -18,5 +17,9 @@
 
 ## Share Code Block
 
-* [How to Create Module](share-code-block/how-to-create-module.md)
-* [How to Create View](share-code-block/how-to-create-view.md)
+* [How to Create Module Package](share-code-block/how-to-create-module-package.md)
+* [How to Create View Package](share-code-block/how-to-create-view-package.md)
+
+## etc
+
+* [Install Cli](etc/install-cli.md)

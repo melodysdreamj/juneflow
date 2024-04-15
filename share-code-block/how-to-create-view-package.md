@@ -1,6 +1,6 @@
-# How to Create View
+# How to Create View Package
 
-### Create Module Template
+### Create View Template
 
 1. After entering `june create`
 2. After entering "4" to select the view template
