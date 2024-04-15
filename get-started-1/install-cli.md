@@ -9,7 +9,7 @@ When you use the `pub global` command, it's necessary to have Dart's `pub` tool 
 1. Use the search function to find 'Edit the system environment variables'.
 2. In the System Properties dialog, click on 'Environment Variables'.
 3. Under 'System Variables', find and select 'Path', then click 'Edit'.
-4. Click 'New' and add the path to the `.pub-cache/bin` directory, for example, `C:\Users\<Your Username>\.pub-cache\bin`.
+4. Click 'New' and add the path to the `.pub-cache/bin` directory, for example, `C:\Users<username>\AppData\Local\Pub\Cache\bin`.
 5. Click 'OK' to apply the changes.\
 
 
