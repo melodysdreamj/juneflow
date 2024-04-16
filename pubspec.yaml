@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  go_router: ^13.2.2
+  go_router: ^13.2.4
   june_flow_util: ^0.8.19
 
 dev_dependencies:
