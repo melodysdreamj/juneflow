@@ -3,7 +3,7 @@
 1. Please enter the following command in the terminal for install cli
 
 ```
-dart pub global activate juneflow_cli    
+flutter pub global activate juneflow_cli    
 june create
 ```
 
