@@ -34,8 +34,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   hive_module: ^1.0.1
-  june_view: ^1.6.0
-  june_view_more: ^1.6.0
+  june_view: ^1.6.2
+  june_view_more: ^1.6.2
   screenutil_module: ^1.0.1
 
 flutter:
