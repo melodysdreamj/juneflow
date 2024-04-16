@@ -25,7 +25,7 @@ class StateChild extends NewViewState {
 
   Future<void> _ready() async {
     if (!(readyState(context) == null)) {
-      await readyState(context)!();
+      await (readyState(context)!())();
     }
     if (mounted) {
       setState(() {
