@@ -7,7 +7,7 @@
 A Framework with Sharing Flutter Module and View
 
 ### Get Startede
-Follow [the guide](https://junflow.org/) to get started.
+Follow [the guide](https://doc.juneflow.org/) to get started.
 
 ### View Package
 You can find View Package here
