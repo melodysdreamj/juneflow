@@ -12,7 +12,7 @@ Follow [the guide](https://doc.juneflow.org/) to get started.
 ### View Package
 You can find View Package here
 
-[![](https://img.shields.io/badge/Module-Hub-007bff?style=for-the-badge&logo=flutter)](https://module.juneflow.org/)
+[![](https://img.shields.io/badge/View-Hub-007bff?style=for-the-badge&logo=flutter)](https://view.juneflow.org/)
 
 ### Module Package
 
