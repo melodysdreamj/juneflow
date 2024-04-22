@@ -38,6 +38,7 @@ dev_dependencies:
   june_view: ^1.6.2
   june_view_more: ^1.6.2
   screenutil_module: ^1.0.1
+  theme_mode_changer: ^1.0.0
 
 flutter:
   uses-material-design: true

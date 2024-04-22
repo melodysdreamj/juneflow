@@ -690,6 +690,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.1"
+  theme_mode_changer:
+    dependency: "direct dev"
+    description:
+      name: theme_mode_changer
+      sha256: "6babe406a932236e4fadf5d3b1930ffb52825a6917c4a861034cddd0ace3bfad"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   typed_data:
     dependency: transitive
     description:

@@ -17,3 +17,5 @@ export 'package:gap/gap.dart';
 export 'package:flutter_svg/svg.dart';
 
 export 'package:flutter_screenutil/flutter_screenutil.dart';
+
+export '../../_/module_functions/theme_mode_changer/_.dart';
