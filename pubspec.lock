@@ -694,10 +694,10 @@ packages:
     dependency: "direct dev"
     description:
       name: theme_mode_changer
-      sha256: "6babe406a932236e4fadf5d3b1930ffb52825a6917c4a861034cddd0ace3bfad"
+      sha256: cf321e7b65f52cb570cb6fafc7b624b86f344ca01798c0518e31ae86b6524052
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   typed_data:
     dependency: transitive
     description:

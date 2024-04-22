@@ -17,6 +17,11 @@ class ThemeModeChanger {
     state.setState();
   }
 
+  static bool isDarkTheme(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    return brightness == Brightness.dark;
+  }
+
   static void switchThemeMode(BuildContext context) {
     var state = June.getState(ThemeModeChangerVM());
     switch (MaterialAppParams.themeMode) {
