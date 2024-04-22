@@ -73,6 +73,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  config_theme:
+    dependency: "direct dev"
+    description:
+      name: config_theme
+      sha256: "9340937bf71a2690a9573e16bf083a4ac12e2a40c0d7897a7ae755bcb00a0b68"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   crypto:
     dependency: transitive
     description:
