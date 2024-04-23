@@ -36,9 +36,9 @@ dev_dependencies:
     sdk: flutter
   hive_module: ^1.0.1
   june_view: ^1.6.2
-  june_view_more: ^1.6.2
+  june_view_more: ^1.7.0
   screenutil_module: ^1.0.1
-  theme_mode_changer: ^1.0.1
+  theme_mode_changer: ^1.0.2
 
 flutter:
   uses-material-design: true

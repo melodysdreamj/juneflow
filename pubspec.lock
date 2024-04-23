@@ -361,10 +361,10 @@ packages:
     dependency: "direct dev"
     description:
       name: june_view_more
-      sha256: "03e93666e6a532bd152a46a5b105bb24acde11c93b60b10ad04bd1026291cc87"
+      sha256: "37ce3532f57a52f7351b1f160257dae96bca760032c99af4492a3ffc8dee3c16"
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.2"
+    version: "1.7.0"
   keyboard_attachable:
     dependency: "direct main"
     description:
@@ -694,10 +694,10 @@ packages:
     dependency: "direct dev"
     description:
       name: theme_mode_changer
-      sha256: cf321e7b65f52cb570cb6fafc7b624b86f344ca01798c0518e31ae86b6524052
+      sha256: "2c118438ffe08934dc632a7cde7edf30ade9ec8856b5374d7c258a5c27623d84"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   typed_data:
     dependency: transitive
     description:

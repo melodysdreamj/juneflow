@@ -23,4 +23,7 @@ ThemeModeChanger.changeToLightTheme();
 
 // switch theme mode
 ThemeModeChanger.switchThemeMode(context);
+
+// check current theme is dark
+ThemeModeChanger.isDarkTheme(context);
 ```
