@@ -9,36 +9,36 @@ environment:
   sdk: '>=3.3.1 <4.0.0'
 
 dependencies:
-  after_layout: ^1.2.0
-  bot_toast: ^4.1.3
-  device_preview: ^1.1.0
+  after_layout:
+  bot_toast:
+  device_preview:
   flutter:
     sdk: flutter
-  flutter_screenutil: ^5.9.0
-  flutter_svg: ^2.0.10+1
-  flutter_zoom_drawer: ^3.2.0
-  gap: ^3.0.1
-  go_router: ^13.2.4
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  june: ^0.8.8
-  keyboard_attachable: ^2.2.0
-  modal_bottom_sheet: ^3.0.0
-  styled_widget: ^0.4.1
+  flutter_screenutil:
+  flutter_svg:
+  flutter_zoom_drawer:
+  gap:
+  go_router:
+  hive:
+  hive_flutter:
+  june:
+  keyboard_attachable:
+  modal_bottom_sheet:
+  styled_widget:
 
 dev_dependencies:
-  bot_toast_module: ^0.1.2
-  config_theme: ^0.0.3
-  device_preview_module: ^1.0.0
-  flutter_lints: ^3.0.2
-  flutter_lints_module: ^1.0.1
+  bot_toast_module:
+  config_theme:
+  device_preview_module:
+  flutter_lints:
+  flutter_lints_module:
   flutter_test:
     sdk: flutter
-  hive_module: ^1.0.1
-  june_view: ^1.6.2
-  june_view_more: ^1.7.0
-  screenutil_module: ^1.0.1
-  theme_mode_changer: ^1.0.2
+  hive_module:
+  june_view:
+  june_view_more:
+  screenutil_module:
+  theme_mode_changer:
 
 flutter:
   uses-material-design: true
