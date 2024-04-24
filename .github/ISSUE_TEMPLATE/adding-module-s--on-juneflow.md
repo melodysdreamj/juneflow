@@ -12,5 +12,3 @@ _Note: To add multiple modules, open a separate issue for each module._
 
 - Name of the module 
 - It's pub URL
-- The category/section where it should be added (Check https://module.juneflow.org for the categories)
-- (Reason) Why is it best suited for this category

@@ -12,5 +12,3 @@ _Note: To add multiple Views, open a separate issue for each view._
 
 - Name of the view 
 - It's pub URL
-- The category/section where it should be added (Check https://view.juneflow.org/ for the categories)
-- (Reason) Why is it best suited for this category
