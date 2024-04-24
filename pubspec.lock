@@ -342,13 +342,13 @@ packages:
     source: hosted
     version: "0.8.8"
   june_flow_util:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: june_flow_util
-      sha256: "5af3b9be88120553a4e923bda4daa225e732079faac9e7ed1cb829cb37ad57ad"
+      sha256: efcd0703e01eca4a137c77c42dbdbcfaaea8cc997dd4d4d787824b4e6aef4f38
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.19"
+    version: "0.8.20"
   june_view:
     dependency: "direct dev"
     description:

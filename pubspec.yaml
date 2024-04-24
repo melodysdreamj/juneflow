@@ -25,6 +25,8 @@ dependencies:
   keyboard_attachable:
   modal_bottom_sheet:
   styled_widget:
+  june_flow_util: ^0.8.20
+
 
 dev_dependencies:
   bot_toast_module:
