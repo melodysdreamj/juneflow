@@ -19,8 +19,6 @@ dependencies:
   flutter_zoom_drawer:
   gap:
   go_router:
-  hive:
-  hive_flutter:
   june:
   keyboard_attachable:
   modal_bottom_sheet:
@@ -36,7 +34,6 @@ dev_dependencies:
   flutter_lints_module:
   flutter_test:
     sdk: flutter
-  hive_module:
   june_view:
   june_view_more:
   screenutil_module:
