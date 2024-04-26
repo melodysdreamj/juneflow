@@ -45,10 +45,10 @@ packages:
     dependency: "direct dev"
     description:
       name: bot_toast_module
-      sha256: "3b66a79eff5937cd75f9ca9e6e29873ce22e728687e77da1496579f30ae89811"
+      sha256: d435b3a5464b6cb2b71b4947f9732bab38f794253df6ae0433c3895223e2b267
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.2"
+    version: "0.1.3"
   characters:
     dependency: transitive
     description:
@@ -77,18 +77,10 @@ packages:
     dependency: "direct dev"
     description:
       name: config_theme
-      sha256: "9340937bf71a2690a9573e16bf083a4ac12e2a40c0d7897a7ae755bcb00a0b68"
+      sha256: c4a4c0a9c2e9b8549ef1d29a170f3bf33ad740eb1ce36c657d03bf5f70de40b3
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.3"
-  crypto:
-    dependency: transitive
-    description:
-      name: crypto
-      sha256: ff625774173754681d66daaf4a448684fb04b78f902da9cb3d308c19cc5e8bab
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.3"
+    version: "1.0.0"
   device_frame:
     dependency: transitive
     description:
@@ -109,10 +101,10 @@ packages:
     dependency: "direct dev"
     description:
       name: device_preview_module
-      sha256: "03e6e958fcc70c73a1a0bc38f2262601a292d709c0002053894a0370f76fd55e"
+      sha256: "3b819a67245b924289b5e7146769ed94fdd2ff1b92a8b15eaafbc31f94d0b26f"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   fake_async:
     dependency: transitive
     description:
@@ -202,10 +194,10 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints_module
-      sha256: "0dffbd9c0cb57f4b781b6318e9079836a63f237fe56491b7b0fa8f772404aca5"
+      sha256: "352cd93ecd14daefd0fe9c60d1f6a18197518300f7a1b0850074272e2d130a47"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   flutter_localizations:
     dependency: transitive
     description: flutter
@@ -273,26 +265,10 @@ packages:
     dependency: "direct main"
     description:
       name: go_router
-      sha256: "771c8feb40ad0ef639973d7ecf1b43d55ffcedb2207fd43fab030f5639e40446"
+      sha256: "466425a64508ca00983882f523400d9169365cb9b464e2e2419f3b6545ff9c51"
       url: "https://pub.dev"
     source: hosted
-    version: "13.2.4"
-  hive:
-    dependency: transitive
-    description:
-      name: hive
-      sha256: "8dcf6db979d7933da8217edcec84e9df1bdb4e4edc7fc77dbd5aa74356d6d941"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.3"
-  hive_flutter:
-    dependency: transitive
-    description:
-      name: hive_flutter
-      sha256: dca1da446b1d808a51689fb5d0c6c9510c0a2ba01e22805d492c73b68e33eecc
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
+    version: "14.0.1"
   http:
     dependency: transitive
     description:
@@ -321,10 +297,10 @@ packages:
     dependency: transitive
     description:
       name: json_annotation
-      sha256: b10a7b2ff83d83c777edba3c6a0f97045ddadd56c944e1a23a3fdf43a1bf4467
+      sha256: "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1"
       url: "https://pub.dev"
     source: hosted
-    version: "4.8.1"
+    version: "4.9.0"
   june:
     dependency: "direct main"
     description:
@@ -337,26 +313,26 @@ packages:
     dependency: "direct main"
     description:
       name: june_flow_util
-      sha256: efcd0703e01eca4a137c77c42dbdbcfaaea8cc997dd4d4d787824b4e6aef4f38
+      sha256: cbb1dee329bc0a20bbec06553d6eaace72be6f3bac215d9c0501f1784e3fd595
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.20"
+    version: "0.9.0"
   june_view:
     dependency: "direct dev"
     description:
       name: june_view
-      sha256: "5108099a956a4baf226621e8c2a5dee3c854aceff3cbd81a0ebe215846d1b45b"
+      sha256: b4d4a1326dd8b67706e35c90d69c6306f8f7420aa070066ca5a4244b89759edf
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.2"
+    version: "1.7.3"
   june_view_more:
     dependency: "direct dev"
     description:
       name: june_view_more
-      sha256: "37ce3532f57a52f7351b1f160257dae96bca760032c99af4492a3ffc8dee3c16"
+      sha256: "273832d658ded1729aecccfdec38d691638eae6708a25cd8ce995b4945347091"
       url: "https://pub.dev"
     source: hosted
-    version: "1.7.0"
+    version: "1.7.3"
   keyboard_attachable:
     dependency: "direct main"
     description:
@@ -477,30 +453,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
-  path_provider:
-    dependency: transitive
-    description:
-      name: path_provider
-      sha256: c9e7d3a4cd1410877472158bee69963a4579f78b68c65a2b7d40d1a7a88bb161
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.3"
-  path_provider_android:
-    dependency: transitive
-    description:
-      name: path_provider_android
-      sha256: a248d8146ee5983446bf03ed5ea8f6533129a12b11f12057ad1b4a67a2b3b41d
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.4"
-  path_provider_foundation:
-    dependency: transitive
-    description:
-      name: path_provider_foundation
-      sha256: "5a7999be66e000916500be4f15a3633ebceb8302719b47b9cc49ce924125350f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.2"
   path_provider_linux:
     dependency: transitive
     description:
@@ -561,10 +513,10 @@ packages:
     dependency: "direct dev"
     description:
       name: screenutil_module
-      sha256: be2673ea36c7512836a2c81a131c4343a728a1b18812913fdadb8166b2c9457c
+      sha256: f777132d0dc55d44838d3566183b11a9605707642d0d5fb3b7ac963aef2db071
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   shared_preferences:
     dependency: transitive
     description:
@@ -686,10 +638,10 @@ packages:
     dependency: "direct dev"
     description:
       name: theme_mode_changer
-      sha256: "2c118438ffe08934dc632a7cde7edf30ade9ec8856b5374d7c258a5c27623d84"
+      sha256: a36543397b04a9f21f8882dc58b18ed402f31e9a941772fb32f22ce1d51ef4ea
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.4"
   typed_data:
     dependency: transitive
     description:
@@ -750,10 +702,10 @@ packages:
     dependency: transitive
     description:
       name: win32
-      sha256: "0a989dc7ca2bb51eac91e8fd00851297cfffd641aa7538b165c62637ca0eaa4a"
+      sha256: "0eaf06e3446824099858367950a813472af675116bf63f008a4c2a75ae13e9cb"
       url: "https://pub.dev"
     source: hosted
-    version: "5.4.0"
+    version: "5.5.0"
   xdg_directories:
     dependency: transitive
     description:

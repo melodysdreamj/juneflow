@@ -6,8 +6,6 @@ export '../../_/initial_app/build_app_widget/build_run_app/_.dart';
 
 export 'package:june_flow_util/june_flow_util.dart';
 
-export '../../_/shared_params/hive_module/_.dart';
-
 export 'package:june/june.dart';
 
 export 'package:styled_widget/styled_widget.dart';
