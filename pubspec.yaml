@@ -23,7 +23,7 @@ dependencies:
   keyboard_attachable:
   modal_bottom_sheet:
   styled_widget:
-  june_flow_util: ^0.8.20
+  june_flow_util:
 
 
 dev_dependencies:
