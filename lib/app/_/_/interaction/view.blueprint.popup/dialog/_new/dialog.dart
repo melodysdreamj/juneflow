@@ -6,9 +6,11 @@ import '_/view.dart';
 void NewDialog(BuildContext context) async {
   showDialog(
       context: context,
-      barrierDismissible: true, // 다른영역클릭시 사리질지 여부 결정
+      barrierDismissible: true, // dialog is dismissible with a tap on the barrier
+      barrierColor: Colors.black.withOpacity(0.4), // screen color outside the dialog
       builder: (BuildContext context) {
         return Dialog(
+          backgroundColor: Colors.white, // dialog background color
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20.0),
           ),
