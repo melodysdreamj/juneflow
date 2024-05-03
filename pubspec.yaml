@@ -40,4 +40,6 @@ dev_dependencies:
   theme_mode_changer:
 
 flutter:
+  assets:
+    - assets/module/config_theme/
   uses-material-design: true

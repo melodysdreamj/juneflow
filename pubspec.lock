@@ -77,10 +77,10 @@ packages:
     dependency: "direct dev"
     description:
       name: config_theme
-      sha256: c4a4c0a9c2e9b8549ef1d29a170f3bf33ad740eb1ce36c657d03bf5f70de40b3
+      sha256: ac46806a72f2417a6b505e6c189c75035d81d5ae52d6cb2e4632ff4f54208a30
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.2"
   device_frame:
     dependency: transitive
     description:
@@ -265,10 +265,10 @@ packages:
     dependency: "direct main"
     description:
       name: go_router
-      sha256: "466425a64508ca00983882f523400d9169365cb9b464e2e2419f3b6545ff9c51"
+      sha256: "9e0f7d1a3e7dc5010903e330fbc5497872c4c3cf6626381d69083cc1d5113c1e"
       url: "https://pub.dev"
     source: hosted
-    version: "14.0.1"
+    version: "14.0.2"
   http:
     dependency: transitive
     description:
@@ -329,10 +329,10 @@ packages:
     dependency: "direct dev"
     description:
       name: june_view_more
-      sha256: "273832d658ded1729aecccfdec38d691638eae6708a25cd8ce995b4945347091"
+      sha256: "248c236a83cc06324a72f41d1da6c8f0eede2d0767079dda7e4964d86e09f7e0"
       url: "https://pub.dev"
     source: hosted
-    version: "1.7.3"
+    version: "1.7.4"
   keyboard_attachable:
     dependency: "direct main"
     description:

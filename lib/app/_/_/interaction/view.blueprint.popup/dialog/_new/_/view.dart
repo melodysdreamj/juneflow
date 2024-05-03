@@ -15,7 +15,7 @@ class NewViewState extends State<NewView> with StateMother {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      color: Colors.transparent,
       child: const Text("NewView")
           .textStyle(Theme.of(context).textTheme.displaySmall!)
           .fontWeight(FontWeight.bold)
