@@ -101,10 +101,10 @@ packages:
     dependency: "direct dev"
     description:
       name: device_preview_module
-      sha256: "3b819a67245b924289b5e7146769ed94fdd2ff1b92a8b15eaafbc31f94d0b26f"
+      sha256: "2f7b744fc68f6ebbfe85885fa119bf65da99017479ad37a0112f5f2d41fcaf1c"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   fake_async:
     dependency: transitive
     description:
