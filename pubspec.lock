@@ -313,10 +313,10 @@ packages:
     dependency: "direct main"
     description:
       name: june_flow_util
-      sha256: cbb1dee329bc0a20bbec06553d6eaace72be6f3bac215d9c0501f1784e3fd595
+      sha256: "0caed74b132f6a3e3bcedbf303de640592a2433896aef9c971776093f1edd6ab"
       url: "https://pub.dev"
     source: hosted
-    version: "0.9.0"
+    version: "0.9.1"
   june_view:
     dependency: "direct dev"
     description:
@@ -537,10 +537,10 @@ packages:
     dependency: transitive
     description:
       name: shared_preferences_foundation
-      sha256: "7708d83064f38060c7b39db12aefe449cb8cdc031d6062280087bc4cdb988f5c"
+      sha256: "0a8a893bf4fd1152f93fec03a415d11c27c74454d96e2318a7ac38dd18683ab7"
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.5"
+    version: "2.4.0"
   shared_preferences_linux:
     dependency: transitive
     description:
