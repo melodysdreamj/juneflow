@@ -10,6 +10,7 @@ environment:
 
 dependencies:
   after_layout:
+  beamer:
   bot_toast:
   device_preview:
   flutter:
@@ -18,7 +19,6 @@ dependencies:
   flutter_svg:
   flutter_zoom_drawer:
   gap:
-  go_router:
   june:
   keyboard_attachable:
   modal_bottom_sheet:
