@@ -2,7 +2,7 @@ import 'package:beamer/beamer.dart';
 import 'package:flutter/material.dart';
 import '../../../../../main.dart';
 
-import '../../../../config/_/router/_/_.dart';
+import '../../../../config/router.dart';
 import '../../../shared_params/_/material_app.dart';
 
 
