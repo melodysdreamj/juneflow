@@ -2,8 +2,8 @@ import 'package:beamer/beamer.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../main.dart';
-import '../../../../_/initial_app/ready_functions/after_material_app/_.dart';
-import '../../../../_/shared_params/_/go_router.dart';
+import '../_/initial_app/ready_functions/after_material_app/_.dart';
+import '../_/shared_params/_/go_router.dart';
 
 final app_router = BeamerDelegate(
   locationBuilder: RoutesLocationBuilder(
