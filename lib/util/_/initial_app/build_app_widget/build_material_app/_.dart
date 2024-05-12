@@ -1,3 +1,4 @@
+import 'package:beamer/beamer.dart';
 import 'package:flutter/material.dart';
 import '../../../../../main.dart';
 
@@ -12,9 +13,8 @@ Widget materialAppInsideBuilder(BuildContext context, Widget? child) {
 
 Widget Function() MaterialAppBuilder(BuildContext context) {
   return () => MaterialApp.router(
-        routeInformationParser: app_router.routeInformationParser,
-        routerDelegate: app_router.routerDelegate,
-        routeInformationProvider: app_router.routeInformationProvider,
+        routeInformationParser: BeamerParser(),
+        routerDelegate: app_router,
         localizationsDelegates: MaterialAppParams.localizationsDelegates,
         supportedLocales: MaterialAppParams.supportedLocales ?? const <Locale>[Locale('en', 'US')],
         locale: MaterialAppParams.locale,
