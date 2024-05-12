@@ -5,9 +5,7 @@ import '../../../../../main.dart';
 import '../../../../config/router.dart';
 import '../../../shared_params/_/material_app.dart';
 
-
 Widget materialAppInsideBuilder(BuildContext context, Widget? child) {
-
   return child!;
 }
 
