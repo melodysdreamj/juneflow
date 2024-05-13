@@ -8,4 +8,5 @@ class MaterialAppParams {
   static ThemeData? lightTheme;
   static ThemeMode? themeMode;
   static String? appName;
+  static BackButtonDispatcher? backButtonDispatcher;
 }
