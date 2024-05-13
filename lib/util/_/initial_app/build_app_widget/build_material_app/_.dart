@@ -18,6 +18,7 @@ Widget Function() MaterialAppBuilder(BuildContext context) {
   return () => MaterialApp.router(
     routeInformationParser: BeamerParser(),
     routerDelegate: app_router,
+    backButtonDispatcher: MaterialAppParams.backButtonDispatcher,
     localizationsDelegates: MaterialAppParams.localizationsDelegates,
     supportedLocales: MaterialAppParams.supportedLocales ?? const <Locale>[Locale('en', 'US')],
     locale: MaterialAppParams.locale,
