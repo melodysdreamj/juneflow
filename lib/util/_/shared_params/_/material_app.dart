@@ -9,4 +9,5 @@ class MaterialAppParams {
   static ThemeMode? themeMode;
   static String? appName;
   static BackButtonDispatcher? backButtonDispatcher;
+  static List<NavigatorObserver>? navigatorObservers;
 }

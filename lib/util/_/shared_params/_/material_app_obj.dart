@@ -15,5 +15,6 @@ MaterialApp currentMaterialApp = MaterialApp(
   builder: (context, child) {
     return child!;
   },
+  navigatorObservers: MaterialAppParams.navigatorObservers ?? [],
   home: MyAppHome ?? InitView(),
 );
