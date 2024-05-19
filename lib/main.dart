@@ -15,11 +15,14 @@ class InitView extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
-          Text("New App")
-              .textAlignment(TextAlign.center)
-              .fontSize(40)
-              .fontWeight(FontWeight.bold)
-              .padding(vertical: 20),
+          Text(
+            "New App",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 40,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           basicButton(context, "New Button", () {}),
         ],
       ),
