@@ -157,3 +157,6 @@ lib/note.dart
 
 .clone-june-flutter/**
 .clone-june-flutter/
+ios/Runner.xcworkspace/contents.xcworkspacedata
+ios/Runner.xcodeproj/project.pbxproj
+ios/Podfile.lock

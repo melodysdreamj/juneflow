@@ -9,15 +9,25 @@ environment:
   sdk: '>=3.3.1 <4.0.0'
 
 dependencies:
+  after_layout:
+  device_preview:
   flutter:
     sdk: flutter
+  flutter_screenutil:
+  flutter_svg:
+  gap:
+  june:
   june_flow_util:
+  styled_widget:
 
 dev_dependencies:
+  device_preview_module:
   flutter_lints:
   flutter_lints_module:
   flutter_test:
     sdk: flutter
+  june_view:
+  screenutil_module:
 
 flutter:
   uses-material-design: true

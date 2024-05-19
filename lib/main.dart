@@ -13,20 +13,14 @@ class InitView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: ListView(
         children: [
-          Expanded(
-            child: ListView(
-              children: [
-                const SizedBox(height: 20),
-                Text("New App",
-                    textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.displaySmall!.copyWith(fontWeight: FontWeight.bold)),
-                const SizedBox(height: 20),
-                basicButton(context, "New Button", () {}),
-              ],
-            ),
-          ),
+          Text("New App")
+              .textAlignment(TextAlign.center)
+              .fontSize(40)
+              .fontWeight(FontWeight.bold)
+              .padding(vertical: 20),
+          basicButton(context, "New Button", () {}),
         ],
       ),
     );
