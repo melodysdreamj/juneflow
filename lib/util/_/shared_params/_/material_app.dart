@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MaterialAppParams {
   static Locale? locale;
   static Iterable<LocalizationsDelegate<dynamic>>? localizationsDelegates;
