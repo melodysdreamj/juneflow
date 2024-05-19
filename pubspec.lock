@@ -54,6 +54,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_lints:
+    dependency: "direct dev"
+    description:
+      name: flutter_lints
+      sha256: "3f41d009ba7172d5ff9be5f6e6e6abb4300e263aab8866d2a0842ed2a70f8f0c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
+  flutter_lints_module:
+    dependency: "direct dev"
+    description:
+      name: flutter_lints_module
+      sha256: fa02e8c513afbf8c96bb00cc2a9a095f7dabcce58c79c1d4f62bd8c5ff1e4778
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   flutter_speed_dial:
     dependency: transitive
     description:
@@ -67,6 +83,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   gap:
     dependency: transitive
     description:
@@ -75,6 +96,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  go_router:
+    dependency: transitive
+    description:
+      name: go_router
+      sha256: aa073287b8f43553678e6fa9e8bb9c83212ff76e09542129a8099bbc8db4df65
+      url: "https://pub.dev"
+    source: hosted
+    version: "14.1.2"
   june_flow_util:
     dependency: "direct main"
     description:
@@ -115,6 +144,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
+  lints:
+    dependency: transitive
+    description:
+      name: lints
+      sha256: "976c774dd944a42e83e2467f4cc670daef7eed6295b10b36ae8c85bcbf828235"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      sha256: "623a88c9594aa774443aa3eb2d41807a48486b5613e67599fb4c41c0ad47c340"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   matcher:
     dependency: transitive
     description:
@@ -234,4 +279,4 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.1 <4.0.0"
-  flutter: ">=3.7.0"
+  flutter: ">=3.16.0"

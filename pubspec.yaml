@@ -14,6 +14,8 @@ dependencies:
   june_flow_util:
 
 dev_dependencies:
+  flutter_lints:
+  flutter_lints_module:
   flutter_test:
     sdk: flutter
 
