@@ -2,7 +2,7 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../../../../../main.dart';
-import '../../../../../config/device_preview_module/params.dart';
+import '../../../../../config/device_preview_module/_.dart';
 
 @CoverRunApp()
 Widget coverDevicePreviewModule(Widget widget) {

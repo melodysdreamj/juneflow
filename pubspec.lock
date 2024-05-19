@@ -77,10 +77,10 @@ packages:
     dependency: "direct dev"
     description:
       name: device_preview_module
-      sha256: "1bdfc2d05cf1ff14da47612e41b0498e6eea25349c97f83586ef55985ec018ba"
+      sha256: "9070070ccbaba2414a963d3191e3eef553b46b486b71a46aac487376ae9e085e"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.3"
+    version: "1.1.0"
   fake_async:
     dependency: transitive
     description:
@@ -393,10 +393,10 @@ packages:
     dependency: "direct dev"
     description:
       name: screenutil_module
-      sha256: "2a5090bfddc51874d7bf685a9547f75afae576f0bc1e8266b0e5db79bd876f4f"
+      sha256: e4faf22f37207a9e499020ccd8bf878de38115afd0e815b33b9f69151572d695
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.3"
+    version: "1.1.0"
   shared_preferences:
     dependency: transitive
     description:
