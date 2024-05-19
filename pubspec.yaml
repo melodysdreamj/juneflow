@@ -16,18 +16,16 @@ dependencies:
   flutter_screenutil:
   flutter_svg:
   gap:
-  june:
   june_flow_util:
   styled_widget:
 
 dev_dependencies:
-  device_preview_module:
+  device_preview_module: #@add
   flutter_lints:
-  flutter_lints_module:
+  flutter_lints_module: #@add
   flutter_test:
     sdk: flutter
-  june_view:
-  screenutil_module:
+  screenutil_module: #@add
 
 flutter:
   uses-material-design: true
