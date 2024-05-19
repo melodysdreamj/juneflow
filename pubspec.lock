@@ -9,14 +9,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
-  beamer:
-    dependency: "direct main"
-    description:
-      name: beamer
-      sha256: c32c5dea11c178fca271f2cce8f3bce4bc0ad761a2b69978573c4e75e991abf9
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.6.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -72,11 +64,6 @@ packages:
     version: "7.0.0"
   flutter_test:
     dependency: "direct dev"
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"

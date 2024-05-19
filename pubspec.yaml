@@ -9,7 +9,6 @@ environment:
   sdk: '>=3.3.1 <4.0.0'
 
 dependencies:
-  beamer:
   flutter:
     sdk: flutter
   june_flow_util:
