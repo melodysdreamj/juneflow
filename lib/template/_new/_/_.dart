@@ -18,7 +18,6 @@ class _NewViewState extends State<NewView> {
   }
 }
 
-
 main() async {
   MyAppHome = NewView();
   return buildApp();
