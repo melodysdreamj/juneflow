@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class MaterialAppParams {
   static Locale? locale;
   static Iterable<LocalizationsDelegate<dynamic>>? localizationsDelegates;
@@ -9,4 +10,5 @@ class MaterialAppParams {
   static ThemeMode? themeMode;
   static String? appName;
   static BackButtonDispatcher? backButtonDispatcher;
+  static List<NavigatorObserver>? navigatorObservers;
 }

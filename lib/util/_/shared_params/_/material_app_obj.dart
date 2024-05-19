@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+
 import '../../../../main.dart';
 import 'material_app.dart';
+
 
 MaterialApp currentMaterialApp = MaterialApp(
   localizationsDelegates: MaterialAppParams.localizationsDelegates,
@@ -15,5 +17,6 @@ MaterialApp currentMaterialApp = MaterialApp(
   builder: (context, child) {
     return child!;
   },
+  navigatorObservers: MaterialAppParams.navigatorObservers ?? [],
   home: MyAppHome ?? InitView(),
 );
