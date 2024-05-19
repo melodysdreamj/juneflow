@@ -18,6 +18,9 @@ dependencies:
   gap: #@add
   june_flow_util:
   styled_widget: #@add
+  modal_bottom_sheet: #@add
+  keyboard_attachable: #@add
+  flutter_zoom_drawer: #@add
 
 dev_dependencies:
   device_preview_module: #@add
