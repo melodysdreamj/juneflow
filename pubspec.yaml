@@ -21,8 +21,10 @@ dependencies:
   modal_bottom_sheet: #@add
   keyboard_attachable: #@add
   flutter_zoom_drawer: #@add
+  bot_toast:
 
 dev_dependencies:
+  bot_toast_module: #@add
   device_preview_module: #@add
   flutter_lints:
   flutter_lints_module: #@add

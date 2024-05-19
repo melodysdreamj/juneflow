@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../main.dart';
+import '../../../../../../../../../../../main.dart';
 
 class NewView extends StatefulWidget {
   const NewView({super.key});
@@ -12,8 +12,10 @@ class NewView extends StatefulWidget {
 class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Text("New View").center(),
+    return Container(
+      height: 100,
+      width: 100,
+      child: Text("Hello World!").center(),
     );
   }
 }
