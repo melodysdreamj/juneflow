@@ -1,5 +1,5 @@
 name: juneflow
-description: "JuneFlow Project"
+description: "Description here"
 #publish_to: 'none'
 #repository: https://github.com/melodysdreamj/juneflow
 
@@ -18,4 +18,6 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  assets:
+    - assets/module/_new/
   uses-material-design: true
