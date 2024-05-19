@@ -21,49 +21,23 @@ class _UsageState extends State<Usage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: ListView(
         children: [
-          Expanded(
-            child: ListView(
-              children: [
-                const Gap(20),
-                const Text("Bottom Sheet")
-                    .textStyle(Theme.of(context).textTheme.displaySmall!)
-                    .fontWeight(FontWeight.bold)
-                    .center(),
-                const Gap(20),
-                _button(context, "open", () {
-                  openWidget(context);
-                }),
-              ],
+          Text(
+            "Bottom Sheet",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 40,
+              fontWeight: FontWeight.bold,
             ),
           ),
+          basicButton(context, "open", () {
+            openWidget(context);
+          }),
         ],
       ),
     );
   }
-
-  _button(BuildContext context, String label, VoidCallback onTap) =>
-      OutlinedButton(
-        onPressed: () {
-          onTap();
-        },
-        style: OutlinedButton.styleFrom(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
-          ),
-          side: BorderSide(
-              color: Theme.of(context).textTheme.bodyMedium!.color!,
-              width: 2), // 테두리 색상과 두께 설정
-        ),
-        child: Text(label)
-            .fontWeight(FontWeight.bold)
-            .textColor(Theme.of(context).textTheme.bodyMedium!.color!)
-            .padding(vertical: 15, horizontal: 20),
-      ).padding(
-        horizontal: 20,
-        vertical: 7,
-      );
 }
 
 main() async {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'template/_new.bottom_sheet/bottom_sheet.dart';
 import 'util/config/global_imports.dart';
 export 'util/config/global_imports.dart';
 
@@ -24,9 +23,7 @@ class InitView extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          basicButton(context, "New Button", () {
-            NewBottomSheet(context);
-          }),
+          basicButton(context, "New Button", () {}),
         ],
       ),
     );
