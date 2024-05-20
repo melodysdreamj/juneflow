@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../main.dart';
 import 'material_app.dart';
 
-MaterialApp currentMaterialApp = MaterialApp(
+Widget currentMaterialApp = MaterialApp(
   localizationsDelegates: MaterialAppParams.localizationsDelegates,
   supportedLocales: MaterialAppParams.supportedLocales ?? const <Locale>[Locale('en', 'US')],
   locale: MaterialAppParams.locale,
