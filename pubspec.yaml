@@ -13,7 +13,7 @@ dependencies:
   device_preview:
   flutter:
     sdk: flutter
-  flutter_screenutil:
+  flutter_screenutil: #@add
   flutter_svg: #@add
   gap: #@add
   june_flow_util:
